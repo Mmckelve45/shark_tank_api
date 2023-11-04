@@ -1,0 +1,114 @@
+[
+  {
+    "summary": "This is the first season of Shark Tank.",
+    "start_date": "2009-08-09",
+    "num_episodes": 14,
+    "shark_info": "Mark Cuban, Daymond John, Kevin O'Leary, Barbara Corcoran, Robert Herjavec, and Kevin Harrington appear as the sharks during this season.",
+    "season_id": 1,
+    "end_date": "2010-02-05"
+  },
+  {
+    "summary": "This is the second season of Shark Tank. This is the shortest season of Shark Tank to date.",
+    "start_date": "2011-03-20",
+    "num_episodes": 9,
+    "shark_info": "Kevin Harrington, Jeff Foxworthy, Mark Cuban, Daymond John, Kevin O'Leary, Barbara Corcoran, and Robert Herjavec appear as the sharks in this season.",
+    "season_id": 2,
+    "end_date": "2011-05-13"
+  },
+  {
+    "summary": "This is the third season of Shark Tank.  This season only contains what we consider the 'main' sharks today!",
+    "start_date": "2012-01-20",
+    "num_episodes": 15,
+    "shark_info": "Lori joins the show and appears in 4 episodes! Mark Cuban, Daymond John, Kevin O'Leary, Barbara Corcoran, and Robert Herjavec appear as the sharks in this season.",
+    "season_id": 3,
+    "end_date": "2012-05-18"
+  },
+  {
+    "summary": "This is the fourth season of Shark Tank.",
+    "start_date": "2012-09-14",
+    "num_episodes": 26,
+    "shark_info": "Mark Cuban, Lori Greiner, Daymond John, Kevin O'Leary, Barbara Corcoran, and Robert Herjavec appear as the sharks only sharks in this season.",
+    "season_id": 4,
+    "end_date": "2013-05-17"
+  },
+  {
+    "summary": "This is the fifth season of Shark Tank. Before the start of this season, Mark Cuban insisted that the production company relinquish its equity clause (two percent of their profits or five percent equity in their company) with respect to featured businesses who choose to do a deal with the sharks. The change applied to all businesses, both from that point on and retroactively.",
+    "start_date": "2013-09-20",
+    "num_episodes": 29,
+    "shark_info": "John Paul Mitchell Systems co-founder John Paul DeJoria and New York Giants owner Steve Tisch appeared as guest sharks this season.",
+    "season_id": 5,
+    "end_date": "2014-05-16"
+  },
+  {
+    "summary": "This is the sixth season of Shark Tank.",
+    "start_date": "2014-09-26",
+    "num_episodes": 29,
+    "shark_info": "Nick Woodman, creator of the GoPro camera, appeared as a guest shark in two episodes this season.",
+    "season_id": 6,
+    "end_date": "2015-05-15"
+  },
+  {
+    "summary": "This is the seventh season of Shark Tank.",
+    "start_date": "2015-09-25",
+    "num_episodes": 29,
+    "shark_info": "Actor Ashton Kutcher, music manager Troy Carter, and venture investor Chris Sacca appeared as guest sharks this season.",
+    "season_id": 7,
+    "end_date": "2016-05-20"
+  },
+  {
+    "summary": "This is the eighth season of Shark Tank.",
+    "start_date": "2016-09-23",
+    "num_episodes": 24,
+    "shark_info": "Venture investor Chris Sacca returned as a guest shark in several episodes this season.",
+    "season_id": 8,
+    "end_date": "2017-05-12"
+  },
+  {
+    "summary": "This is the ninth season of Shark Tank. The series moved to Sunday nights for this season. After the cancellation of Ten Days in the Valley, and with the March arrival of ABC's reboot of American Idol, the majority of episodes aired back-to-back in two-hour blocks.",
+    "start_date": "2017-10-01",
+    "num_episodes": 24,
+    "shark_info": "Guest sharks this season include Spanx founder Sara Blakely, Virgin Group founder Richard Branson, brand marketer Rohan Oza, TV personality Bethenny Frankel, and former MLB star Alex Rodriguez.",
+    "season_id": 9,
+    "end_date": "2018-02-25"
+  },
+  {
+    "summary": "This is the tenth season of Shark Tank. This season was subtitled 'A Decade of Dreams'. The first season where an entrepreneur returns to the show as a shark.",
+    "start_date": "2018-10-07",
+    "num_episodes": 23,
+    "shark_info": "Guest sharks for this season include Jamie Siminoff, the first guest shark to have sought a deal on the show (the sharks passed on his company Doorbot, now known as Ring). Amazon acquired Ring in 2018 for $1 Billion. This was probably the biggest missed investment opportunity on the show to date.",
+    "season_id": 10,
+    "end_date": "2019-05-12"
+  },
+  {
+    "summary": "This is the eleventh season of Shark Tank.  Daniel Lubetszky walks into the scene for the first time as a guest shark that will later have the most investments out of any guest shark",
+    "start_date": "2019-09-29",
+    "num_episodes": 24,
+    "shark_info": "Guest sharks this season include Katrina Lake, founder and CEO of Stitch Fix; Daniel Lubetzky, founder and CEO of Kind; tennis player Maria Sharapova; and Anne Wojcicki, CEO and co-founder of 23andMe. Recurring Sharks include Rohan Oza and Matt Higgins.",
+    "season_id": 11,
+    "end_date": "2020-05-15"
+  },
+  {
+    "summary": "This is the twelfth season of Shark Tank. The 12th season was filmed inside a production bubble at the Venetian Las Vegas to allow for social distancing during the COVID-19 pandemic.",
+    "start_date": "2020-10-16",
+    "num_episodes": 25,
+    "shark_info": "Guest sharks this season include Blake Mycoskie, founder of TOMS and co-founder of Madefor, and Kendra Scott, founder and CEO of Kendra Scott LLC. Returning guest Sharks include Alex Rodriguez, baseball player and founder and CEO of A-Rod Corp, and Daniel Lubetzky, founder and executive chairman of Kind.",
+    "season_id": 12,
+    "end_date": "2021-05-21"
+  },
+  {
+    "summary": "This is the thirteenth season of Shark Tank.",
+    "start_date": "2021-10-08",
+    "num_episodes": 24,
+    "shark_info": "Guest sharks this season include Emma Grede, CEO and co-founder of Good American and founding partner of Skims; actor and comedian Kevin Hart; Peter Jones, dragon on Dragons' Den; Daniel Lubetzky, founder and executive chairman of Kind; and Nirav Tolia, co-founder of Nextdoor.",
+    "season_id": 13,
+    "end_date": "2022-05-20"
+  },
+  {
+    "summary": "This is the fourteenth season of Shark Tank.",
+    "start_date": "2022-09-23",
+    "num_episodes": 22,
+    "shark_info": "Guest sharks this season include Emma Grede, CEO and co-founder of Good American and founding partner of Skims; Gwyneth Paltrow, actress and founder of goop; Peter Jones, dragon on Dragons' Den; Daniel Lubetzky, founder and executive chairman of Kind; Kendra Scott, founder and CEO of Kendra Scott LLC; and Tony Xu, CEO and co-founder of DoorDash.",
+    "season_id": 14,
+    "end_date": "2023-05-19"
+  }
+]
