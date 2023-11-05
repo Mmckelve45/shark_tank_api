@@ -54,3 +54,32 @@ async def create_season(
     # episode_model['companies'] = companies_json
     db.add(season_model)
     db.commit()
+
+
+@router.post('/load_data_new', status_code=status.HTTP_201_CREATED)
+async def bulk_load_seasons(
+                      db: db_dependency):
+    print('made it here')
+
+    season_data = 'assets/season_data.json'
+    with open(season_data, 'r') as file:
+        data = json.load(file)
+    for seas in data:
+        # print(seas['season_id'])
+        # print(seas['num_episodes'])
+        # print(seas['summary'])
+        # print(seas['shark_info'])
+        # print(seas['start_date'])
+        # print(seas['end_date'])
+        # season_model = Seasons(**seas.model_dump())
+
+        new_seas = Seasons(
+            season_id=seas['season_id'],
+            num_episodes=seas['num_episodes'],
+            summary=seas['summary'],
+            shark_info=seas['shark_info'],
+            start_date=seas['start_date'],
+            end_date=seas['end_date'],
+        )
+        db.add(new_seas)
+    db.commit()

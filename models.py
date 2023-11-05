@@ -18,8 +18,6 @@ class Episodes(Base):
 
     episode_id = Column(Integer, primary_key=True, index=True)
     sharks = Column(ARRAY(String), nullable=False)
-    # Change to FK- season_id: Column[int] = Column(Integer, ForeignKey("users.id"))
-    # season_id = Column(Integer, nullable=False)
     season_id = Column(Integer, ForeignKey('seasons.season_id'), nullable=False)
     episode = Column(Integer, nullable=False)
     episode_all = Column(Integer, unique=True, nullable=False)
@@ -34,11 +32,8 @@ class Pitches(Base):
 
     pitch_id = Column(Integer, primary_key=True, index=True)
     name = Column(String, nullable=False)
-    # Change to FK- season_id: Column[int] = Column(Integer, ForeignKey("users.id"))
     season_id = Column(Integer, ForeignKey('seasons.season_id'), nullable=False)
     episode_id = Column(Integer, ForeignKey('episodes.episode_id'), nullable=False)
-    # season_id = Column(Integer, nullable=False)
-    # episode_id = Column(Integer, nullable=False)
     air_date = Column(String, nullable=False)
     summary = Column(String, nullable=False)
     entrepreneur_gender = Column(String, nullable=False)
@@ -73,15 +68,15 @@ class Sharks(Base):
     is_guest = Column(Boolean, nullable=False)
 
 
-class Users(Base):
-    __tablename__ = 'users'
-
-    id = Column(String, primary_key=True, index=True)
-    email = Column(String, unique=True)
-    username = Column(String, unique=True)
-    made_change = Column(Boolean, default=False)
-    change_count = Column(Integer, default=0)
-    proposed_count = Column(Integer, default=0)
+# class Users(Base):
+#     __tablename__ = 'users'
+#
+#     id = Column(String, primary_key=True, index=True)
+#     email = Column(String, unique=True)
+#     username = Column(String, unique=True)
+#     made_change = Column(Boolean, default=False)
+#     change_count = Column(Integer, default=0)
+#     proposed_count = Column(Integer, default=0)
 
 
 # class Todos(Base):

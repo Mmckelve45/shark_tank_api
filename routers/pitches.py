@@ -102,7 +102,7 @@ async def create_episode(
 async def create_episode(
                       db: db_dependency):
 
-    pitch_data = 'assets/pitch_data.json'
+    pitch_data = 'assets/pitch_data_old.json'
     with open(pitch_data, 'r') as file:
         data = json.load(file)
     for pitch in data:
@@ -153,6 +153,67 @@ async def create_episode(
             category=pitch['category'],
             status=pitch['status'] if pitch['status'] != "" else None,
             website=pitch['website'] if pitch['website'] != "" else None
+        )
+
+        db.add(new_pitch)
+    db.commit()
+
+
+@router.post('/load_data_new', status_code=status.HTTP_201_CREATED)
+async def bulk_load_pitches(
+                      db: db_dependency):
+    print('here?');
+    pitch_data = 'assets/pitch_data.json'
+    with open(pitch_data, 'r') as file:
+        data = json.load(file)
+    for pitch in data:
+
+        # if pitch['id'] == 4:
+        #     break
+
+        # sharks = []
+        # for i in pitch['shark']:
+        #     if i != "":
+        #         sharks.append(i)
+        #
+        # structure = []
+        # for v in pitch['dealStructure']:
+        #     if v != "":
+        #         structure.append(v)
+        # ent = []
+        # for t in pitch['entrepreneur']:
+        #     if t != "":
+        #         ent.append(t)
+
+
+        # x = pitch['test'] if pitch['test'] != "" else None
+        # print(pitch['id'])
+
+        new_pitch = Pitches(
+            pitch_id=pitch['pitch_id'],
+            name=pitch['name'],
+            season_id=pitch['season_id'],
+            episode_id=pitch['episode_id'],
+            air_date=pitch['air_date'],
+            summary=pitch['summary'],
+            entrepreneur_gender=pitch['entrepreneur_gender'],
+            entrepreneur=pitch['entrepreneur_gender'],
+            is_deal=pitch['is_deal'],
+            ask_amt=pitch['ask_amt'],
+            ask_perc=pitch['ask_perc'],
+            ask_valuation=pitch['ask_valuation'],
+            ask_summary=pitch['ask_summary'],
+            deal_amt_equity=pitch['deal_amt_equity'],
+            deal_perc_equity=pitch['deal_perc_equity'],
+            deal_amt_debt=pitch['deal_amt_debt'],
+            deal_valuation=pitch['deal_valuation'],
+            deal_summary=pitch['deal_summary'],
+            bite=pitch['bite'],
+            investors=pitch['investors'],
+            deal_structure=pitch['deal_structure'],
+            category=pitch['category'],
+            status=pitch['status'],
+            website=pitch['website']
         )
 
         db.add(new_pitch)

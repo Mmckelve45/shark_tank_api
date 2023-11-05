@@ -112,33 +112,58 @@ async def create_episode(
         db.add(new_ep)
     db.commit()
 
-# DO NOT DELETE
-# @router.post('/load_data', status_code=status.HTTP_201_CREATED)
-# async def create_episode(
-#                       db: db_dependency):
-#
-#     episode_data = 'assets/episode_data.json'
-#     with open(episode_data, 'r') as file:
-#         data = json.load(file)
-#     for ep in data['episodes']:
-#
-#         companies = []
-#         for i in ep['companies']:
-#             companies.append(i)
-#
-#         new_ep = Episodes(
-#             episode_id=int(ep['episodeAll']),
-#             sharks=ep['sharks'],
-#             season_id=int(ep['season']),
-#             episode=int(ep['episode']),
-#             episode_all=int(ep['episodeAll']),
-#             title=ep['title'],
-#             date=ep['date'],
-#             wikipedia_url=ep['url'],
-#             companies=companies
-#         )
-#         db.add(new_ep)
-#     db.commit()
+
+@router.post('/load_data', status_code=status.HTTP_201_CREATED)
+async def create_episode(
+                      db: db_dependency):
+
+    episode_data = 'assets/episode_data_old.json'
+    with open(episode_data, 'r') as file:
+        data = json.load(file)
+    for ep in data['episodes']:
+
+        companies = []
+        for i in ep['companies']:
+            companies.append(i)
+
+        new_ep = Episodes(
+            episode_id=int(ep['episodeAll']),
+            sharks=ep['sharks'],
+            season_id=int(ep['season']),
+            episode=int(ep['episode']),
+            episode_all=int(ep['episodeAll']),
+            title=ep['title'],
+            date=ep['date'],
+            wikipedia_url=ep['url'],
+            companies=companies
+        )
+        db.add(new_ep)
+    db.commit()
 
 
+@router.post('/load_data_new', status_code=status.HTTP_201_CREATED)
+async def bulk_load_episodes(
+                      db: db_dependency):
 
+    episode_data = 'assets/episode_data.json'
+    with open(episode_data, 'r') as file:
+        data = json.load(file)
+    for ep in data:
+
+        # companies = []
+        # for i in ep['companies']:
+        #     companies.append(i)
+
+        new_ep = Episodes(
+            episode_id=ep['episode_id'],
+            sharks=ep['sharks'],
+            season_id=ep['season_id'],
+            episode=ep['episode'],
+            episode_all=ep['episode_all'],
+            title=ep['title'],
+            date=ep['date'],
+            wikipedia_url=ep['wikipedia_url'],
+            companies=ep['companies']
+        )
+        db.add(new_ep)
+    db.commit()

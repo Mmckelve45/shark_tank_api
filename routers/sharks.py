@@ -46,7 +46,7 @@ async def get_all_sharks(db: db_dependency):
 async def bulk_load_sharks(
                       db: db_dependency):
 
-    shark_data = 'assets/investor_data.json'
+    shark_data = 'assets/investor_data_old.json'
     with open(shark_data, 'r') as file:
         data = json.load(file)
     ind = 1
@@ -72,4 +72,36 @@ async def bulk_load_sharks(
         )
         db.add(new_shark)
         ind += 1
+    db.commit()
+
+
+@router.post('/load_data_new', status_code=status.HTTP_201_CREATED)
+async def bulk_load_sharks(
+                      db: db_dependency):
+
+    shark_data = 'assets/investor_data.json'
+    with open(shark_data, 'r') as file:
+        data = json.load(file)
+    # ind = 1
+    for shark in data:
+
+        # temp_guest = True
+        # if shark['name'] == 'Mark Cuban' or \
+        #         shark['name'] == 'Barbara Corcoran' or \
+        #         shark['name'] == 'Daymond John' or \
+        #         shark['name'] == "Kevin O'Leary" or \
+        #         shark['name'] == 'Robert Herjavec' or \
+        #         shark['name'] == 'Lori Greiner':
+        #     temp_guest = False
+
+        new_shark = Sharks(
+            shark_id=shark['shark_id'],
+            name=shark['name'],
+            summary=shark['summary'],
+            description=shark['description'],
+            img=shark['img'],
+            is_guest=shark['is_guest'],
+            dob=shark['dob']
+        )
+        db.add(new_shark)
     db.commit()

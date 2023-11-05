@@ -1,247 +1,317 @@
 [
-    {
-      "name": "Mark Cuban",
-      "summary": "Co-founder of Broadcast.com",
-      "description": "Mark Cuban is an investor who lives for his family, his \"Shark Tank\" companies and the Dallas Mavericks. He is the owner of the 2011 World Champion Dallas Mavericks and bestselling author of \"How to Win at the Sport of Business,\" and was an entrepreneur from the early age of 12 when he sold garbage bags door to door. Today, Cuban is the highly successful entrepreneur and investor with an ever-growing portfolio of businesses. A lifelong entrepreneur and investor, Cuban has started and built multiple industry-changing organizations including Costplusdrugs.com, which sells medications at industry low pricing with total cost transparency, which he founded with Dr. Alex Oshmansky. ",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MarkCuban2023.jpg/440px-MarkCuban2023.jpg",
-      "dob": "1958-07-31"
-    },
-    {
-      "name": "Lori Greiner",
-      "summary": "Queen of QVC",
-      "description": "Lori Greiner started with one idea and turned it into a multimillion-dollar international brand. She is well known as a self-made inventor and entrepreneur who created and marketed over 1,000 products and holds 120 U.S. and international patents. She is recognized as one of the most prolific inventors of retail products of our time. Greiner's accomplishments come from her sharp instincts and strong business sense. Well known for telling instantly if a product is a \"hero or a zero,\" she has a 90% success rate on new items launched.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/LoriGrenier2023.jpg/440px-LoriGrenier2023.jpg",
-      "dob": "1969-12-09"
-    },
-    {
-      "name": "Daymond John",
-      "summary": "Founder, CEO, and President of FUBU",
-      "description": "As one of the industry's most recognized branding experts, Daymond John's own brand has seen an aggressive expansion since he created FUBU more than 20 years ago. An original cast member of the four-time Emmy® Award-winning series \"Shark Tank,\" John's relentless commitment to promoting and supporting entrepreneurs led to him becoming a two-time New York Times bestselling author for his books \"The Power of Broke\" (2016) and \"Rise and Grind\" (2018), which was also recognized as a Wall Street Journal Best Seller. In March 2020, John released his fifth book, \"Powershift,\" that walks through his tried-and-true process of how to transform any situation, close any deal and achieve any outcome through his own experience and vast network of industry leaders.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/DaymondJohn2023b.jpg/440px-DaymondJohn2023b.jpg",
-      "dob": "1969-02-23"
-    },
-    {
-      "name": "Kevin O’Leary",
-      "summary": "Co-founder of SoftKey",
-      "description": "In 1986, O'Leary founded SoftKey Software Products (later called The Learning Company), the first software company to apply the principles of consumer goods marketing to the software industry. SoftKey grew quickly as the price of personal computers declined, and millions of American families began to buy software for education and entertainment. SoftKey soon became a catalyst of consolidation in the software industry, raising over $1 billion in financing and completing a series of aggressive acquisitions, including WordStar International, Spinnaker Software, Compton's New Media, The Learning Company, Creative Wonders, the Minnesota Educational Computing Company, Mindscape and Broderbund. In 1999, Mattel acquired the company for $4.2 billion.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KevinOLeary2023.jpg/440px-KevinOLeary2023.jpg",
-      "dob": "1954-07-09"
-    },
-    {
-      "name": "Robert Herjavec",
-      "summary": "Founder of Herjavec Group",
-      "description": "A dynamic entrepreneur, Robert Herjavec has built and sold several IT companies. In 2003, Robert founded Herjavec Group, and it quickly became one of North America's fastest growing technology companies. Today, Herjavec Group is a global leader in information security specializing in managed security services, consulting, delivery and incident response for enterprise level organizations. Robert's ability to interpret industry trends and understand enterprise business security demands has helped him achieve the profile of a global cybersecurity expert. He has served as a Cybersecurity Advisor for the Government of Canada, participated in the White House Summit on Cybersecurity and is a member of the U.S. Chamber of Commerce Task Force for Cybersecurity.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/RobertHerjavec2023.jpg/440px-RobertHerjavec2023.jpg",
-      "dob": "1962-09-14"
-    },
-    {
-      "name": "Barbara Corcoran",
-      "summary": "Founder of Corcoran Group",
-      "description": "Barbara Corcoran's credits include straight D's in high school and college, and 20 jobs by the time she turned 23. It was her next job that would make her one of the most successful entrepreneurs in the country: She borrowed $1,000 and quit her job as a waitress to start a tiny real estate company in New York City. Over the next 25 years, she would parlay that $1,000 loan into a $5 billion real estate business, building the largest and best-known brand in the business. Corcoran is the author of the bestseller \"Shark Tales: How I Turned $1,000 into a Billion Dollar Business\" and host of top podcast \"Business Unusual with Barbara Corcoran\".",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BarbaraCorcoran2023.jpg/440px-BarbaraCorcoran2023.jpg",
-      "dob": "1949-03-10"
-    },
-    {
-      "name": "Emma Grede",
-      "summary": "CEO and Founder of Good America",
-      "description": "Grede is also a founding partner of SKIMS, a solutions-oriented brand creating the next generation of inclusive underwear, loungewear and shapewear; and a co-founder of Safely, the plant-powered cleaning brand, delivering chemical-free cleaning products to the masses. Prior to Good American, Grede worked in entertainment marketing at Inca Productions, and later became CEO and chairman of ITB Worldwide. In the first decade of her career, she quickly identified the power of forging partnerships with celebrity talent to accelerate a brand's exposure and strengthen its credibility. Infusing this knowledge and expertise, Grede has carved a new path for the typical retail startup across her brands.",
-      "img": "https://media.glamourmagazine.co.uk/photos/633ecee0c67a100f30e00bd6/master/w_1600%2Cc_limit/EMMA%2520GOOD%2520AMERICAN%2520061022%2520GA_EMMA04_1854_DE1_FINAL_P.jpeg",
-      "dob": "1982-09-23"
-    },
-    {
-      "name": "Kevin Hart",
-      "summary": "Comedian and Actor",
-      "description": "Emmy-nominated producer Kevin Hart was born and raised in Philadelphia, Pennsylvania, where he launched his career as a comedian during an amateur night at a local comedy club. Over the years, Hart has become Hollywood's box office powerhouse, opening 10 films at No. 1 at the box office with $4.23 billion revenue at the global box office. Hart is the founder of three companies: digital network Laugh Out Loud Network (LOL), multiplatform production company HartBeat Productions (HBP) and venture capital HartBeat Ventures (HBV). His goal is for these companies to create an eco-system and incubator for extraordinary growth and creativity. Hart is the chairman of LOL which serves as a platform for emerging comedians.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KH2_2018.png/440px-KH2_2018.png",
-      "dob": "1979-07-06"
-    },
-    {
-      "name": "Peter Jones",
-      "summary": "Founder of Phones International Group",
-      "description": "Peter Jones CBE dreamt of becoming a successful businessman when he was just 7 years old whilst sitting at his father's desk pretending to make calls and do deals. He started his first business at 16 years old and his second before his 18th birthday. He built a multimillion-dollar computer business in his early 20s only to lose everything when he was 29 which left him sleeping in a warehouse for six months. Not deterred, he joined Siemens Nixdorf, and within 12 months was running the PC Business in the U.K. and became one of the youngest-ever executives to be given such a role. At the age of 32, he started his own business again, Phones International Group, which became one of the fastest growing enterprises in Europe with annual sales exceeding $400 million within five years.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chris_Dawson_%26_Peter_Jones_on_set_on_Peter_Jones_Meets_%28cropped%29.jpg/440px-Chris_Dawson_%26_Peter_Jones_on_set_on_Peter_Jones_Meets_%28cropped%29.jpg",
-      "dob": "1966-03-18"
-    },
-    {
-      "name": "Daniel Lubetzky",
-      "summary": "CEO and Founder of KIND",
-      "description": "Daniel Lubetzky is on a mission to make the world a little kinder one snack and act at a time. Maker of delicious and nutritious foods, KIND created a new healthy snacking category with the introduction of its first fruit and nut bars in 2004. Established as a not-only-for-profit, KIND is also committed to using its business as a vehicle for social change. Its KIND Movement inspires everyday acts of kindness, and The KIND Foundation works to create kinder, more empathetic communities. Most recently, the Foundation unveiled Empatico – an idea that Lubetzky conceived more than a decade ago. Empatico is a $20 million initiative that connects elementary students worldwide and empowers them to explore their similarities and differences. In 2018, Fast Company recognized Empatico as a World Changing Idea winner.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Daniel_Lubetzky_%28April_14%2C_2015%29_%28cropped%29.jpg",
-      "dob": "1968-09-30"
-    },
-    {
-      "name": "Nirav Tolia",
-      "summary": "CEO and Founder of Nextdoor",
-      "description": "Nirav Tolia has spent the last 20 years creating and leading early-stage, pioneering consumer Internet companies. Most recently, he was CEO and co-founder of Nextdoor, the world's largest local social network. He led the company from its inception in 2010 to the end of 2018. Over that time, Nextdoor launched in the U.S., U.K., Germany, France, Italy, Spain, Netherlands and Australia, and was adopted by over 220,000 neighborhoods worldwide, including 90% of American neighborhoods. Before Nextdoor, Tolia was COO of Shopping.com, a company he helped create through the merger of Dealtime and Epinions, where Tolia was CEO and co-founder. Shopping.com went public on Nasdaq and was later acquired by eBay for $620 million. Before Epinions, Tolia began his career as employee No. 84 at Yahoo.",
-      "img": "https://cdn1.edgedatg.com/aws/v2/abc/SharkTank/person/3870059/bb5712fac80e595cfbfcdd1a9ec72350/768x307-Q90_bb5712fac80e595cfbfcdd1a9ec72350.jpg",
-      "dob": "1971-09-09"
-    },
-    {
-      "name": "Kevin Harrington",
-      "summary": "President of National Media",
-      "description": "In 1985 he created his first infomercial after identifying an opportunity to fill late night and early morning dead air time on cable networks. While companies like Vitamix had been producing infomercial programs for TV broadcasters since 1949, Harrington's model of replacing time that the broadcaster was normally off the air with entertaining and informative advertising launched the modern infomercial format. As President of National Media he oversaw the launch of several successful infomercials himself.",
-      "img": "https://www.thesharkgroup.com/wp-content/uploads/2018/11/TSG-Speaker-Kevin.jpg",
-      "dob": "1956-10-15"
-    },
-    {
-      "name": "Chris Sacca",
-      "summary": "Founder of Lowercase Capital",
-      "description": "Sacca went out of his traditional job at Google to build his own empire in Silicon Valley.  In addition to being a lawyer, entrepreneur and company adviser, Chris Sacca is one of the most successful seed investors ever, with a keen eye for adaptability and growth. He invested in startups no one believed in and gave them his time, money and value; building a network of over 80 tech companies including Kickstarter, Twitter, Uber, Stripe and Instagram.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Chris_Sacca_at_Collision_2017_2017-05-02_%2833574491704%29.jpg/440px-Chris_Sacca_at_Collision_2017_2017-05-02_%2833574491704%29.jpg",
-      "dob": "1975-03-12"
-    },
-    {
-      "name": "Jeff Foxworthy",
-      "summary": "Comedian and Actor",
-      "description": "an American actor, author, comedian, producer and writer. He is a member of the Blue Collar Comedy Tour, with Larry the Cable Guy, Bill Engvall, and Ron White. Known for his \"You might be a redneck\" one-liners, Foxworthy has released six major-label comedy albums. His first two albums were each certified triple Platinum by the Recording Industry Association of America. He has written several books based on his redneck jokes, as well as an autobiography entitled No Shirt, No Shoes... No Problem!",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jeff_Foxworthy.jpg/440px-Jeff_Foxworthy.jpg",
-      "dob": "1958-09-06"
-    },
-    {
-      "name": "John Paul Dejoria",
-      "summary": "Co-founder of Paul Mitchell and The Patrón Spirits Company",
-      "description": "He co-founded John Paul Mitchell Systems with the hairdresser Paul Mitchell in 1980. He took a loan of 700 dollars for the start-up. John Paul DeJoria also owns seventy percent of The Patrons Spirits Company which is a world famous tequila brand. He co-founded the company in 1989. It sold more than 2,450,000 cases in 2011. He is also a founding member of the nightclub chain House of Blues and has interests in Ultimat Vodka, Pyrat Rum, Sun King Solar, Solar Utility, Three Star Energy, Touchstone Natural Gas, Diamond Audio, ROK AMERICAS, John Paul Pet, a diamond company, J&D Acquisitions LLC, Larson’s parent company, Triumph, Striper, a Harley-Davidson dealership, Carver and Marquis Yachts.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/John_Paul_DeJoria_by_Gage_Skidmore.jpg/440px-John_Paul_DeJoria_by_Gage_Skidmore.jpg",
-      "dob": "1944-04-13"
-    },
-    {
-      "name": "Steve Tisch",
-      "summary": "Chairman, Co-owner, and Executive VP of the New York Giants",
-      "description": "American film producer and businessman. He is the chairman, co-owner and executive vice president of the New York Giants, the NFL team co-owned by his family, as well as a film and television producer. He is the son of former Giants co-owner Bob Tisch.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Steve_Tisch_2018_%28cropped%29.jpg/440px-Steve_Tisch_2018_%28cropped%29.jpg",
-      "dob": "1949-02-14"
-    },
-    {
-      "name": "Nick Woodman",
-      "summary": "CEO and Founder of GoPro",
-      "description": "Woodman received a $235,000 investment from his father, an investment banker in Silicon Valley, and used his parents' connections in venture capital to launch GoPro.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Nick_Woodman.jpg/440px-Nick_Woodman.jpg",
-      "dob": "1975-06-24"
-    },
-    {
-      "name": "Ashton Kutcher",
-      "summary": "Actor, Producer, Model and Entreprenuer",
-      "description": "He began his acting career portraying Michael Kelso in the Fox sitcom That '70s Show (1998–2006). He made his film debut in the romantic comedy Coming Soon (1999), followed by the comedy film Dude, Where's My Car? (2000), which was a box office hit. In 2003, Kutcher moved into romantic comedies, appearing in that year's Just Married and My Boss's Daughter. In 2003, he created and produced the television series Punk'd, also serving as host for the first eight of its ten seasons. In 2004, Kutcher starred in the lead role of the psychological film The Butterfly Effect.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ashton_Kutcher_-_2023_-_P060603-652701_%28cropped%29.jpg/440px-Ashton_Kutcher_-_2023_-_P060603-652701_%28cropped%29.jpg",
-      "dob": "1978-02-07"
-    },
-    {
-      "name": "Troy Carter",
-      "summary": "Founder of Atom Factory",
-      "description": "Started a talent management company that represents stars like Lady Gaga and John Legend. In addition to his work in the music industry, Troy has also made investments in several startups, including Uber and Dropbox. In early 2017, Troy became a judge on Shark Tank, where he offers his expertise to help budding entrepreneurs turn their businesses into successes.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Troy_Carter_in_2014.png/440px-Troy_Carter_in_2014.png",
-      "dob": "1972-11-14"
-    },
-    {
-      "name": "Richard Branson",
-      "summary": "Founder of the Virgin Group",
-      "description": "At the age of sixteen his first business venture was a magazine called Student. In 1970, he set up a mail-order record business. In 1971, he opened the first of a chain of Virgin record stores, later known as Virgin Megastores. Branson's Virgin brand grew rapidly during the 1980s, as he set up Virgin Atlantic airline and expanded the Virgin Records music label. In 1999, Branson was knighted at Buckingham Palace for \"services to entrepreneurship.\" In 2002, he was named in the BBC's poll of the 100 Greatest Britons. In January 2016, Forbes listed Branson's estimated net worth at $5.2 billion.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Richard_Branson_March_2015_%28cropped%29.jpg/440px-Richard_Branson_March_2015_%28cropped%29.jpg",
-      "dob": "1950-07-18"
-    },
-    {
-      "name": "Rohan Oza",
-      "summary": "Partner and CMO of Glacéau",
-      "description": "In 2002, after six years at The Coca Cola Company, Oza left to become partner and chief marketing officer of then-fledgling beverage company Glacéau. From this position he helped build the powerhouse brands Vitaminwater and Smartwater through trailblazing partnerships with celebrities, including 50 Cent, Jennifer Aniston, LeBron James and Tom Brady. Oza's career came full circle when, five years later, The Coca-Cola Company purchased Glacéau for $4.1 billion.",
-      "img": "https://cdn1.edgedatg.com/aws/v2/abc/SharkTank/person/2056876/6572c7ddb4c23aa77ae2ac78204a7800/768x307-Q90_6572c7ddb4c23aa77ae2ac78204a7800.jpg",
-      "dob": "1971-06-23"
-    },
-    {
-      "name": "Alex Rodriguez",
-      "summary": "MLB Player",
-      "description": "Alex Rodriguez is one of Major League Baseball's greatest players. He is CEO of AROD Corp, a multi-faceted business conglomeration boasting coast to coast with an auto dealership group, international and domestic fitness clubs, and a fully integrated real estate empire, with over 200 employees and more than 12,000 units in their portfolio across 13 states.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alex_Rodriguez_crop.jpg/500px-Alex_Rodriguez_crop.jpg",
-      "dob": "1975-07-27"
-    },
-    {
-      "name": "Sara Blakely",
-      "summary": "Founder and Owner of Spanx",
-      "description": "Sara Blakely is the founder and sole owner of Spanx, the brand that is constantly inventing more comfortable undergarment options for women that just happen to also make your butt and gut look amazing, and now, thankfully, makes killer leggings, too!  The brand was born from a simple goal – find something to wear under white pants to make them more flattering. After some creativity with scissors and control top pantyhose, Spanx is now a successful business with offerings that extend far beyond its original shapewear.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sara_Blakely.jpg/440px-Sara_Blakely.jpg",
-      "dob": "1971-02-27"
-    },
-    {
-      "name": "Bethenny Frankel",
-      "summary": "Founder of Skinnygirl",
-      "description": "Bethenny Frankel is a self-made businesswoman, TV producer, natural foods chef, multiple New York Times bestselling author, and mother. Bethenny is the Founder & CEO of Skinnygirl, a lifestyle brand offering practical solutions to women. She was listed on Forbes' top 100 Most Powerful Celebrities, has a TV production company, B Real, and has hosted a nationally syndicated talk show, Bethenny. She is a star of The Real Housewives of New York City and founded B Strong, a charity providing real-time emergency assistance to women in crisis, diverted from their potential success.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BethennyFrankelVAOCApr09.jpg/440px-BethennyFrankelVAOCApr09.jpg",
-      "dob": "1970-11-04"
-    },
-    {
-      "name": "Jamie Siminoff",
-      "summary": "CEO and Founder of Ring",
-      "description": "A lifelong inventor and successful entrepreneur, Jamie Siminoff created the world's first Wi-Fi video doorbell while working in his garage in 2011. He pitched his doorbell, then called DoorBot as a Shark Tank entrepreneur in 2013, turned down the only offer he received from Shark Kevin O'Leary and left without a deal. He has since transformed his invention into what's now known as Ring, a security powerhouse that offers several DIY home security products and services, including the popular Ring Video Doorbell that's capable of preventing and solving neighborhood crime. Under his direction, Ring has seen incredible success and growth. In 2018, Amazon purchased Ring, the company's second-largest acquisition.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2844468478402%29.jpg/440px-TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2844468478402%29.jpg",
-      "dob": "1977-02-17"
-    },
-    {
-      "name": "Matt Higgins",
-      "summary": "Co-founder and CEO of RSE Ventures",
-      "description": "Higgins co-founded RSE with Miami Dolphins owner, Stephen M. Ross, the most prominent private developer in the U.S. and a serial entrepreneur. Together Higgins and Ross have helped build enterprises from scratch, including the largest privately owned soccer tournament in the world (International Champions Cup) and leading brand strategy and communications agency Derris. As an incubator, RSE has helped build leading restaurant software company RESY and the world's premier drone racing circuit, the Drone Racing League. Higgins was the first client of marketing guru Gary Vaynerchuk, before becoming a co-owner of VaynerMedia and a partner with early-stage venture fund Vayner/RSE.",
-      "img": "https://m.media-amazon.com/images/M/MV5BY2RkNDE2NmItOGI2ZC00MGQ4LWEyYjktNTBiZTg0NjczNTdmXkEyXkFqcGdeQXVyOTQ1MTExMzg@._V1_.jpg",
-      "dob": "1975-04-01"
-    },
-    {
-      "name": "Charles Barkley",
-      "summary": "NBA Player",
-      "description": "American former professional basketball player who is a television analyst on TNT. Nicknamed \"Sir Charles\", \"Chuck\", and \"the Round Mound of Rebound\", Barkley played 16 seasons in the National Basketball Association (NBA) for three teams. Though shorter than the typical power forward, he used his strength and aggressiveness to become one of the NBA's most dominant rebounders. He was a versatile player who had the ability to score, create plays, and defend. Barkley was an 11-time NBA All-Star, an 11-time member of the All-NBA Team, and the 1993 NBA Most Valuable Player (MVP). He was named to the NBA's 50th and 75th anniversary teams.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/1_charles_barkley_2019_%28cropped%29.jpg/1280px-1_charles_barkley_2019_%28cropped%29.jpg",
-      "dob": "1963-02-20"
-    },
-    {
-      "name": "Alli Webb",
-      "summary": "Founder of Drybar",
-      "description": "Webb came up with the ingenious concept of Drybar, a chain of salons that provides nothing but blowouts (professional hair-drying, for the uninitiated) in a trendy “bar” setting at a competitive price-point. The idea was a “no-brainer” for Webb who has naturally curly hair and was spending a small fortune on salon blow-outs.",
-      "img": "https://m.media-amazon.com/images/M/MV5BNDBhOWVhNWEtMTRlZC00ZmEyLTg0YmMtYTVlYTQzNjAxMGQzXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
-      "dob": "1974-07-20"
-    },
-    {
-      "name": "Anne Wojcicki",
-      "summary": "CEO and Co-founder of 23andMe",
-      "description": "Anne Wojcicki is the CEO and co-founder of 23andMe. She co-founded 23andMe in 2006 after a decade spent in healthcare, focusing primarily on biotechnology companies. Her hope was to empower consumers with access to their own genetic information, and to create a way to generate more personalized information so that commercial and academic researchers could better understand and develop new drugs and diagnostics. Presently, 23andMe has built one of the world's largest databases of individual genetic information.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Anne_Wojcicki_%2836938473750%29_%28cropped%29.jpg/1280px-Anne_Wojcicki_%2836938473750%29_%28cropped%29.jpg",
-      "dob": "1973-07-28"
-    },
-    {
-      "name": "Maria Sharapova",
-      "summary": "Pro Tennis Player and Co-founder of SugarPova",
-      "description": "Sharapova is the co-founder of a high-end candy company named 'Sugarpova'. It was founded in 2012. Over the years, the company has added items such as chocolates, gummies, gumballs, and truffles to its growing list of portfolios.  She turned pro in 2001 and has been ranked world no. 1 by the WTA for 21 weeks. She is the only Russian woman to have won five major titles- two at the French Open in 2012 and 2014, one each at the Australian Open in 2008, the US Open in 2006, and the Wimbledon in 2004.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sharapova_WM19_%285%29_%2848521917742%29.jpg/440px-Sharapova_WM19_%285%29_%2848521917742%29.jpg",
-      "dob": "1987-04-19"
-    },
-    {
-      "name": "Katrina Lake",
-      "summary": "CEO and Founder of Stitch Fix",
-      "description": "Katrina Lake is the founder and CEO of Stitch Fix, an online personal styling service. She started the company in 2011 with the aim of making fashion more accessible and convenient for women. Today, Stitch Fix has over 2 million customers and a team of over 4,000 stylists.  Lake is a graduate of Harvard Business School and Stanford University. She has been featured on the cover of Forbes, Fortune, and Business Insider, and was named one of Time Magazine’s 100 Most Influential People in the World in 2017.",
-      "img": "https://pbs.twimg.com/profile_images/870159478414393346/BMIKljK__400x400.jpg",
-      "dob": "1982-12-10"
-    },
-    {
-      "name": "Blake Mycoskie",
-      "summary": "Founder of Toms",
-      "description": "Blake Mycoskie is a serial entrepreneur, philanthropist and bestselling author most known for founding TOMS Shoes and is the person behind the idea of One for One®, a business model that helps a person in need with every product purchased.  A simple idea grew into a global movement: While traveling in Argentina in 2006, Mycoskie witnessed the hardships faced by children growing up without shoes. His solution to the problem was simple yet revolutionary: create a for-profit business that was sustainable and not reliant on donations. Mycoskie's vision soon turned into the simple business idea that provided the powerful foundation for TOMS. Since its inception, TOMS Shoes has provided almost 96 million pairs of shoes to children around the globe.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Blake_Mycoskie_at_SXSW_2011.jpg/1024px-Blake_Mycoskie_at_SXSW_2011.jpg",
-      "dob": "1976-08-26"
-    },
-    {
-      "name": "Kendra Scott",
-      "summary": "CEO and Founder of Kendra Scott",
-      "description": "Designer, founder and CEO Kendra Scott started her company in 2002 with only $500, just three months after her first son was born. As a creative mind with a love of natural gemstones, Scott began going door-to-door to Austin boutiques armed only with a tea box full of her jewelry, captivating businesses and customers with her vibrant personality and unique eye for design. Determined to maintain growth and preserve the vision of her business, Scott waited over 10 years to accept outside investments. She has since grown the company to a billion-dollar valuation with over 100 stores nationwide and a thriving e-commerce and wholesale business. According to a 2018 PitchBook study, Scott is among only 16 women in the United States to carry the title of founder of a company valued at $1 billion.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/KS-HOMESHOOT-2020-7674_%281%29_%281%29_%281%29_%281%29.jpg/1024px-KS-HOMESHOOT-2020-7674_%281%29_%281%29_%281%29_%281%29.jpg",
-      "dob": "1974-03-27"
-    },
-    {
-      "name": "Gwyneth Paltrow",
-      "summary": "Founder of Goop",
-      "description": "Oscar-winning actress Gwyneth Paltrow, whose 1998 turn in \"Shakespeare in Love\" garnered her Best Actress honors at the Golden Globes®, Screen Actors Guild Awards®, and Academy Awards®, is also a decorated author, singer and entrepreneur. In addition, Paltrow has authored four New York Times Best Selling cookbooks: \"My Father's Daughter\" (2011), \"It's All Good\" (2013), \"It's All Easy\" (2016) and \"The Clean Plate\" (2019).  In 2008, Paltrow founded goop from her kitchen table. Goop has grown into a lifestyle brand devoted to helping women make their own choices count in the various facets of their lives—from style, travel, work, food and beauty to physical, mental and spiritual wellness. ",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/4/42/GwynethPaltrowByAndreaRaffin2011.jpg",
-      "dob": "1972-09-27"
-    },
-    {
-      "name": "Tony Xu",
-      "summary": "CEO and Co-founder of DoorDash",
-      "description": "Tony is the CEO and co-founder of DoorDash (NYSE: DASH), a technology company that connects consumers with their favorite local businesses in 27 countries across the globe, on a mission to grow and empower local economies. Born in Nanjing, China, Xu came to America with his parents and grew up working in a restaurant alongside his mom. He and his co-founders started DoorDash to help local businesses like that restaurant succeed. Xu met his co-founders at Stanford. DoorDash grew out of their conversations with merchants, asking what hurdles they faced in growing their own businesses. The company began addressing the challenges of delivery from restaurants and has since expanded focus to include grocery, retail, beauty, alcohol, pet food, flowers and convenience.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/b/b2/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784924924%29.jpg",
-      "dob": "1984-09-24"
-    }
- ]
+  {
+    "summary": "Co-founder of Broadcast.com",
+    "name": "Mark Cuban",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MarkCuban2023.jpg/440px-MarkCuban2023.jpg",
+    "is_guest": false,
+    "shark_id": 1,
+    "description": "Mark Cuban is an investor who lives for his family, his \"Shark Tank\" companies and the Dallas Mavericks. He is the owner of the 2011 World Champion Dallas Mavericks and bestselling author of \"How to Win at the Sport of Business,\" and was an entrepreneur from the early age of 12 when he sold garbage bags door to door. Today, Cuban is the highly successful entrepreneur and investor with an ever-growing portfolio of businesses. A lifelong entrepreneur and investor, Cuban has started and built multiple industry-changing organizations including Costplusdrugs.com, which sells medications at industry low pricing with total cost transparency, which he founded with Dr. Alex Oshmansky. ",
+    "dob": "1958-07-31"
+  },
+  {
+    "summary": "Queen of QVC",
+    "name": "Lori Greiner",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/LoriGrenier2023.jpg/440px-LoriGrenier2023.jpg",
+    "is_guest": false,
+    "shark_id": 2,
+    "description": "Lori Greiner started with one idea and turned it into a multimillion-dollar international brand. She is well known as a self-made inventor and entrepreneur who created and marketed over 1,000 products and holds 120 U.S. and international patents. She is recognized as one of the most prolific inventors of retail products of our time. Greiner's accomplishments come from her sharp instincts and strong business sense. Well known for telling instantly if a product is a \"hero or a zero,\" she has a 90% success rate on new items launched.",
+    "dob": "1969-12-09"
+  },
+  {
+    "summary": "Founder, CEO, and President of FUBU",
+    "name": "Daymond John",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/DaymondJohn2023b.jpg/440px-DaymondJohn2023b.jpg",
+    "is_guest": false,
+    "shark_id": 3,
+    "description": "As one of the industry's most recognized branding experts, Daymond John's own brand has seen an aggressive expansion since he created FUBU more than 20 years ago. An original cast member of the four-time Emmy® Award-winning series \"Shark Tank,\" John's relentless commitment to promoting and supporting entrepreneurs led to him becoming a two-time New York Times bestselling author for his books \"The Power of Broke\" (2016) and \"Rise and Grind\" (2018), which was also recognized as a Wall Street Journal Best Seller. In March 2020, John released his fifth book, \"Powershift,\" that walks through his tried-and-true process of how to transform any situation, close any deal and achieve any outcome through his own experience and vast network of industry leaders.",
+    "dob": "1969-02-23"
+  },
+  {
+    "summary": "Co-founder of SoftKey",
+    "name": "Kevin O’Leary",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KevinOLeary2023.jpg/440px-KevinOLeary2023.jpg",
+    "is_guest": true,
+    "shark_id": 4,
+    "description": "In 1986, O'Leary founded SoftKey Software Products (later called The Learning Company), the first software company to apply the principles of consumer goods marketing to the software industry. SoftKey grew quickly as the price of personal computers declined, and millions of American families began to buy software for education and entertainment. SoftKey soon became a catalyst of consolidation in the software industry, raising over $1 billion in financing and completing a series of aggressive acquisitions, including WordStar International, Spinnaker Software, Compton's New Media, The Learning Company, Creative Wonders, the Minnesota Educational Computing Company, Mindscape and Broderbund. In 1999, Mattel acquired the company for $4.2 billion.",
+    "dob": "1954-07-09"
+  },
+  {
+    "summary": "Founder of Herjavec Group",
+    "name": "Robert Herjavec",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/RobertHerjavec2023.jpg/440px-RobertHerjavec2023.jpg",
+    "is_guest": false,
+    "shark_id": 5,
+    "description": "A dynamic entrepreneur, Robert Herjavec has built and sold several IT companies. In 2003, Robert founded Herjavec Group, and it quickly became one of North America's fastest growing technology companies. Today, Herjavec Group is a global leader in information security specializing in managed security services, consulting, delivery and incident response for enterprise level organizations. Robert's ability to interpret industry trends and understand enterprise business security demands has helped him achieve the profile of a global cybersecurity expert. He has served as a Cybersecurity Advisor for the Government of Canada, participated in the White House Summit on Cybersecurity and is a member of the U.S. Chamber of Commerce Task Force for Cybersecurity.",
+    "dob": "1962-09-14"
+  },
+  {
+    "summary": "Founder of Corcoran Group",
+    "name": "Barbara Corcoran",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BarbaraCorcoran2023.jpg/440px-BarbaraCorcoran2023.jpg",
+    "is_guest": false,
+    "shark_id": 6,
+    "description": "Barbara Corcoran's credits include straight D's in high school and college, and 20 jobs by the time she turned 23. It was her next job that would make her one of the most successful entrepreneurs in the country: She borrowed $1,000 and quit her job as a waitress to start a tiny real estate company in New York City. Over the next 25 years, she would parlay that $1,000 loan into a $5 billion real estate business, building the largest and best-known brand in the business. Corcoran is the author of the bestseller \"Shark Tales: How I Turned $1,000 into a Billion Dollar Business\" and host of top podcast \"Business Unusual with Barbara Corcoran\".",
+    "dob": "1949-03-10"
+  },
+  {
+    "summary": "CEO and Founder of Good America",
+    "name": "Emma Grede",
+    "img": "https://media.glamourmagazine.co.uk/photos/633ecee0c67a100f30e00bd6/master/w_1600%2Cc_limit/EMMA%2520GOOD%2520AMERICAN%2520061022%2520GA_EMMA04_1854_DE1_FINAL_P.jpeg",
+    "is_guest": true,
+    "shark_id": 7,
+    "description": "Grede is also a founding partner of SKIMS, a solutions-oriented brand creating the next generation of inclusive underwear, loungewear and shapewear; and a co-founder of Safely, the plant-powered cleaning brand, delivering chemical-free cleaning products to the masses. Prior to Good American, Grede worked in entertainment marketing at Inca Productions, and later became CEO and chairman of ITB Worldwide. In the first decade of her career, she quickly identified the power of forging partnerships with celebrity talent to accelerate a brand's exposure and strengthen its credibility. Infusing this knowledge and expertise, Grede has carved a new path for the typical retail startup across her brands.",
+    "dob": "1982-09-23"
+  },
+  {
+    "summary": "Comedian and Actor",
+    "name": "Kevin Hart",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/KH2_2018.png/440px-KH2_2018.png",
+    "is_guest": true,
+    "shark_id": 8,
+    "description": "Emmy-nominated producer Kevin Hart was born and raised in Philadelphia, Pennsylvania, where he launched his career as a comedian during an amateur night at a local comedy club. Over the years, Hart has become Hollywood's box office powerhouse, opening 10 films at No. 1 at the box office with $4.23 billion revenue at the global box office. Hart is the founder of three companies: digital network Laugh Out Loud Network (LOL), multiplatform production company HartBeat Productions (HBP) and venture capital HartBeat Ventures (HBV). His goal is for these companies to create an eco-system and incubator for extraordinary growth and creativity. Hart is the chairman of LOL which serves as a platform for emerging comedians.",
+    "dob": "1979-07-06"
+  },
+  {
+    "summary": "Founder of Phones International Group",
+    "name": "Peter Jones",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chris_Dawson_%26_Peter_Jones_on_set_on_Peter_Jones_Meets_%28cropped%29.jpg/440px-Chris_Dawson_%26_Peter_Jones_on_set_on_Peter_Jones_Meets_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 9,
+    "description": "Peter Jones CBE dreamt of becoming a successful businessman when he was just 7 years old whilst sitting at his father's desk pretending to make calls and do deals. He started his first business at 16 years old and his second before his 18th birthday. He built a multimillion-dollar computer business in his early 20s only to lose everything when he was 29 which left him sleeping in a warehouse for six months. Not deterred, he joined Siemens Nixdorf, and within 12 months was running the PC Business in the U.K. and became one of the youngest-ever executives to be given such a role. At the age of 32, he started his own business again, Phones International Group, which became one of the fastest growing enterprises in Europe with annual sales exceeding $400 million within five years.",
+    "dob": "1966-03-18"
+  },
+  {
+    "summary": "CEO and Founder of KIND",
+    "name": "Daniel Lubetzky",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Daniel_Lubetzky_%28April_14%2C_2015%29_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 10,
+    "description": "Daniel Lubetzky is on a mission to make the world a little kinder one snack and act at a time. Maker of delicious and nutritious foods, KIND created a new healthy snacking category with the introduction of its first fruit and nut bars in 2004. Established as a not-only-for-profit, KIND is also committed to using its business as a vehicle for social change. Its KIND Movement inspires everyday acts of kindness, and The KIND Foundation works to create kinder, more empathetic communities. Most recently, the Foundation unveiled Empatico – an idea that Lubetzky conceived more than a decade ago. Empatico is a $20 million initiative that connects elementary students worldwide and empowers them to explore their similarities and differences. In 2018, Fast Company recognized Empatico as a World Changing Idea winner.",
+    "dob": "1968-09-30"
+  },
+  {
+    "summary": "CEO and Founder of Nextdoor",
+    "name": "Nirav Tolia",
+    "img": "https://cdn1.edgedatg.com/aws/v2/abc/SharkTank/person/3870059/bb5712fac80e595cfbfcdd1a9ec72350/768x307-Q90_bb5712fac80e595cfbfcdd1a9ec72350.jpg",
+    "is_guest": true,
+    "shark_id": 11,
+    "description": "Nirav Tolia has spent the last 20 years creating and leading early-stage, pioneering consumer Internet companies. Most recently, he was CEO and co-founder of Nextdoor, the world's largest local social network. He led the company from its inception in 2010 to the end of 2018. Over that time, Nextdoor launched in the U.S., U.K., Germany, France, Italy, Spain, Netherlands and Australia, and was adopted by over 220,000 neighborhoods worldwide, including 90% of American neighborhoods. Before Nextdoor, Tolia was COO of Shopping.com, a company he helped create through the merger of Dealtime and Epinions, where Tolia was CEO and co-founder. Shopping.com went public on Nasdaq and was later acquired by eBay for $620 million. Before Epinions, Tolia began his career as employee No. 84 at Yahoo.",
+    "dob": "1971-09-09"
+  },
+  {
+    "summary": "President of National Media",
+    "name": "Kevin Harrington",
+    "img": "https://www.thesharkgroup.com/wp-content/uploads/2018/11/TSG-Speaker-Kevin.jpg",
+    "is_guest": true,
+    "shark_id": 12,
+    "description": "In 1985 he created his first infomercial after identifying an opportunity to fill late night and early morning dead air time on cable networks. While companies like Vitamix had been producing infomercial programs for TV broadcasters since 1949, Harrington's model of replacing time that the broadcaster was normally off the air with entertaining and informative advertising launched the modern infomercial format. As President of National Media he oversaw the launch of several successful infomercials himself.",
+    "dob": "1956-10-15"
+  },
+  {
+    "summary": "Founder of Lowercase Capital",
+    "name": "Chris Sacca",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Chris_Sacca_at_Collision_2017_2017-05-02_%2833574491704%29.jpg/440px-Chris_Sacca_at_Collision_2017_2017-05-02_%2833574491704%29.jpg",
+    "is_guest": true,
+    "shark_id": 13,
+    "description": "Sacca went out of his traditional job at Google to build his own empire in Silicon Valley.  In addition to being a lawyer, entrepreneur and company adviser, Chris Sacca is one of the most successful seed investors ever, with a keen eye for adaptability and growth. He invested in startups no one believed in and gave them his time, money and value; building a network of over 80 tech companies including Kickstarter, Twitter, Uber, Stripe and Instagram.",
+    "dob": "1975-03-12"
+  },
+  {
+    "summary": "Comedian and Actor",
+    "name": "Jeff Foxworthy",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jeff_Foxworthy.jpg/440px-Jeff_Foxworthy.jpg",
+    "is_guest": true,
+    "shark_id": 14,
+    "description": "an American actor, author, comedian, producer and writer. He is a member of the Blue Collar Comedy Tour, with Larry the Cable Guy, Bill Engvall, and Ron White. Known for his \"You might be a redneck\" one-liners, Foxworthy has released six major-label comedy albums. His first two albums were each certified triple Platinum by the Recording Industry Association of America. He has written several books based on his redneck jokes, as well as an autobiography entitled No Shirt, No Shoes... No Problem!",
+    "dob": "1958-09-06"
+  },
+  {
+    "summary": "Co-founder of Paul Mitchell and The Patrón Spirits Company",
+    "name": "John Paul Dejoria",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/John_Paul_DeJoria_by_Gage_Skidmore.jpg/440px-John_Paul_DeJoria_by_Gage_Skidmore.jpg",
+    "is_guest": true,
+    "shark_id": 15,
+    "description": "He co-founded John Paul Mitchell Systems with the hairdresser Paul Mitchell in 1980. He took a loan of 700 dollars for the start-up. John Paul DeJoria also owns seventy percent of The Patrons Spirits Company which is a world famous tequila brand. He co-founded the company in 1989. It sold more than 2,450,000 cases in 2011. He is also a founding member of the nightclub chain House of Blues and has interests in Ultimat Vodka, Pyrat Rum, Sun King Solar, Solar Utility, Three Star Energy, Touchstone Natural Gas, Diamond Audio, ROK AMERICAS, John Paul Pet, a diamond company, J&D Acquisitions LLC, Larson’s parent company, Triumph, Striper, a Harley-Davidson dealership, Carver and Marquis Yachts.",
+    "dob": "1944-04-13"
+  },
+  {
+    "summary": "Chairman, Co-owner, and Executive VP of the New York Giants",
+    "name": "Steve Tisch",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Steve_Tisch_2018_%28cropped%29.jpg/440px-Steve_Tisch_2018_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 16,
+    "description": "American film producer and businessman. He is the chairman, co-owner and executive vice president of the New York Giants, the NFL team co-owned by his family, as well as a film and television producer. He is the son of former Giants co-owner Bob Tisch.",
+    "dob": "1949-02-14"
+  },
+  {
+    "summary": "CEO and Founder of GoPro",
+    "name": "Nick Woodman",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Nick_Woodman.jpg/440px-Nick_Woodman.jpg",
+    "is_guest": true,
+    "shark_id": 17,
+    "description": "Woodman received a $235,000 investment from his father, an investment banker in Silicon Valley, and used his parents' connections in venture capital to launch GoPro.",
+    "dob": "1975-06-24"
+  },
+  {
+    "summary": "Actor, Producer, Model and Entreprenuer",
+    "name": "Ashton Kutcher",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ashton_Kutcher_-_2023_-_P060603-652701_%28cropped%29.jpg/440px-Ashton_Kutcher_-_2023_-_P060603-652701_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 18,
+    "description": "He began his acting career portraying Michael Kelso in the Fox sitcom That '70s Show (1998–2006). He made his film debut in the romantic comedy Coming Soon (1999), followed by the comedy film Dude, Where's My Car? (2000), which was a box office hit. In 2003, Kutcher moved into romantic comedies, appearing in that year's Just Married and My Boss's Daughter. In 2003, he created and produced the television series Punk'd, also serving as host for the first eight of its ten seasons. In 2004, Kutcher starred in the lead role of the psychological film The Butterfly Effect.",
+    "dob": "1978-02-07"
+  },
+  {
+    "summary": "Founder of Atom Factory",
+    "name": "Troy Carter",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Troy_Carter_in_2014.png/440px-Troy_Carter_in_2014.png",
+    "is_guest": true,
+    "shark_id": 19,
+    "description": "Started a talent management company that represents stars like Lady Gaga and John Legend. In addition to his work in the music industry, Troy has also made investments in several startups, including Uber and Dropbox. In early 2017, Troy became a judge on Shark Tank, where he offers his expertise to help budding entrepreneurs turn their businesses into successes.",
+    "dob": "1972-11-14"
+  },
+  {
+    "summary": "Founder of the Virgin Group",
+    "name": "Richard Branson",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Richard_Branson_March_2015_%28cropped%29.jpg/440px-Richard_Branson_March_2015_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 20,
+    "description": "At the age of sixteen his first business venture was a magazine called Student. In 1970, he set up a mail-order record business. In 1971, he opened the first of a chain of Virgin record stores, later known as Virgin Megastores. Branson's Virgin brand grew rapidly during the 1980s, as he set up Virgin Atlantic airline and expanded the Virgin Records music label. In 1999, Branson was knighted at Buckingham Palace for \"services to entrepreneurship.\" In 2002, he was named in the BBC's poll of the 100 Greatest Britons. In January 2016, Forbes listed Branson's estimated net worth at $5.2 billion.",
+    "dob": "1950-07-18"
+  },
+  {
+    "summary": "Partner and CMO of Glacéau",
+    "name": "Rohan Oza",
+    "img": "https://cdn1.edgedatg.com/aws/v2/abc/SharkTank/person/2056876/6572c7ddb4c23aa77ae2ac78204a7800/768x307-Q90_6572c7ddb4c23aa77ae2ac78204a7800.jpg",
+    "is_guest": true,
+    "shark_id": 21,
+    "description": "In 2002, after six years at The Coca Cola Company, Oza left to become partner and chief marketing officer of then-fledgling beverage company Glacéau. From this position he helped build the powerhouse brands Vitaminwater and Smartwater through trailblazing partnerships with celebrities, including 50 Cent, Jennifer Aniston, LeBron James and Tom Brady. Oza's career came full circle when, five years later, The Coca-Cola Company purchased Glacéau for $4.1 billion.",
+    "dob": "1971-06-23"
+  },
+  {
+    "summary": "MLB Player",
+    "name": "Alex Rodriguez",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Alex_Rodriguez_crop.jpg/500px-Alex_Rodriguez_crop.jpg",
+    "is_guest": true,
+    "shark_id": 22,
+    "description": "Alex Rodriguez is one of Major League Baseball's greatest players. He is CEO of AROD Corp, a multi-faceted business conglomeration boasting coast to coast with an auto dealership group, international and domestic fitness clubs, and a fully integrated real estate empire, with over 200 employees and more than 12,000 units in their portfolio across 13 states.",
+    "dob": "1975-07-27"
+  },
+  {
+    "summary": "Founder and Owner of Spanx",
+    "name": "Sara Blakely",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sara_Blakely.jpg/440px-Sara_Blakely.jpg",
+    "is_guest": true,
+    "shark_id": 23,
+    "description": "Sara Blakely is the founder and sole owner of Spanx, the brand that is constantly inventing more comfortable undergarment options for women that just happen to also make your butt and gut look amazing, and now, thankfully, makes killer leggings, too!  The brand was born from a simple goal – find something to wear under white pants to make them more flattering. After some creativity with scissors and control top pantyhose, Spanx is now a successful business with offerings that extend far beyond its original shapewear.",
+    "dob": "1971-02-27"
+  },
+  {
+    "summary": "Founder of Skinnygirl",
+    "name": "Bethenny Frankel",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BethennyFrankelVAOCApr09.jpg/440px-BethennyFrankelVAOCApr09.jpg",
+    "is_guest": true,
+    "shark_id": 24,
+    "description": "Bethenny Frankel is a self-made businesswoman, TV producer, natural foods chef, multiple New York Times bestselling author, and mother. Bethenny is the Founder & CEO of Skinnygirl, a lifestyle brand offering practical solutions to women. She was listed on Forbes' top 100 Most Powerful Celebrities, has a TV production company, B Real, and has hosted a nationally syndicated talk show, Bethenny. She is a star of The Real Housewives of New York City and founded B Strong, a charity providing real-time emergency assistance to women in crisis, diverted from their potential success.",
+    "dob": "1970-11-04"
+  },
+  {
+    "summary": "CEO and Founder of Ring",
+    "name": "Jamie Siminoff",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2844468478402%29.jpg/440px-TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2844468478402%29.jpg",
+    "is_guest": true,
+    "shark_id": 25,
+    "description": "A lifelong inventor and successful entrepreneur, Jamie Siminoff created the world's first Wi-Fi video doorbell while working in his garage in 2011. He pitched his doorbell, then called DoorBot as a Shark Tank entrepreneur in 2013, turned down the only offer he received from Shark Kevin O'Leary and left without a deal. He has since transformed his invention into what's now known as Ring, a security powerhouse that offers several DIY home security products and services, including the popular Ring Video Doorbell that's capable of preventing and solving neighborhood crime. Under his direction, Ring has seen incredible success and growth. In 2018, Amazon purchased Ring, the company's second-largest acquisition.",
+    "dob": "1977-02-17"
+  },
+  {
+    "summary": "Co-founder and CEO of RSE Ventures",
+    "name": "Matt Higgins",
+    "img": "https://m.media-amazon.com/images/M/MV5BY2RkNDE2NmItOGI2ZC00MGQ4LWEyYjktNTBiZTg0NjczNTdmXkEyXkFqcGdeQXVyOTQ1MTExMzg@._V1_.jpg",
+    "is_guest": true,
+    "shark_id": 26,
+    "description": "Higgins co-founded RSE with Miami Dolphins owner, Stephen M. Ross, the most prominent private developer in the U.S. and a serial entrepreneur. Together Higgins and Ross have helped build enterprises from scratch, including the largest privately owned soccer tournament in the world (International Champions Cup) and leading brand strategy and communications agency Derris. As an incubator, RSE has helped build leading restaurant software company RESY and the world's premier drone racing circuit, the Drone Racing League. Higgins was the first client of marketing guru Gary Vaynerchuk, before becoming a co-owner of VaynerMedia and a partner with early-stage venture fund Vayner/RSE.",
+    "dob": "1975-04-01"
+  },
+  {
+    "summary": "NBA Player",
+    "name": "Charles Barkley",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/1_charles_barkley_2019_%28cropped%29.jpg/1280px-1_charles_barkley_2019_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 27,
+    "description": "American former professional basketball player who is a television analyst on TNT. Nicknamed \"Sir Charles\", \"Chuck\", and \"the Round Mound of Rebound\", Barkley played 16 seasons in the National Basketball Association (NBA) for three teams. Though shorter than the typical power forward, he used his strength and aggressiveness to become one of the NBA's most dominant rebounders. He was a versatile player who had the ability to score, create plays, and defend. Barkley was an 11-time NBA All-Star, an 11-time member of the All-NBA Team, and the 1993 NBA Most Valuable Player (MVP). He was named to the NBA's 50th and 75th anniversary teams.",
+    "dob": "1963-02-20"
+  },
+  {
+    "summary": "Founder of Drybar",
+    "name": "Alli Webb",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDBhOWVhNWEtMTRlZC00ZmEyLTg0YmMtYTVlYTQzNjAxMGQzXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
+    "is_guest": true,
+    "shark_id": 28,
+    "description": "Webb came up with the ingenious concept of Drybar, a chain of salons that provides nothing but blowouts (professional hair-drying, for the uninitiated) in a trendy “bar” setting at a competitive price-point. The idea was a “no-brainer” for Webb who has naturally curly hair and was spending a small fortune on salon blow-outs.",
+    "dob": "1974-07-20"
+  },
+  {
+    "summary": "CEO and Co-founder of 23andMe",
+    "name": "Anne Wojcicki",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Anne_Wojcicki_%2836938473750%29_%28cropped%29.jpg/1280px-Anne_Wojcicki_%2836938473750%29_%28cropped%29.jpg",
+    "is_guest": true,
+    "shark_id": 29,
+    "description": "Anne Wojcicki is the CEO and co-founder of 23andMe. She co-founded 23andMe in 2006 after a decade spent in healthcare, focusing primarily on biotechnology companies. Her hope was to empower consumers with access to their own genetic information, and to create a way to generate more personalized information so that commercial and academic researchers could better understand and develop new drugs and diagnostics. Presently, 23andMe has built one of the world's largest databases of individual genetic information.",
+    "dob": "1973-07-28"
+  },
+  {
+    "summary": "Pro Tennis Player and Co-founder of SugarPova",
+    "name": "Maria Sharapova",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sharapova_WM19_%285%29_%2848521917742%29.jpg/440px-Sharapova_WM19_%285%29_%2848521917742%29.jpg",
+    "is_guest": true,
+    "shark_id": 30,
+    "description": "Sharapova is the co-founder of a high-end candy company named 'Sugarpova'. It was founded in 2012. Over the years, the company has added items such as chocolates, gummies, gumballs, and truffles to its growing list of portfolios.  She turned pro in 2001 and has been ranked world no. 1 by the WTA for 21 weeks. She is the only Russian woman to have won five major titles- two at the French Open in 2012 and 2014, one each at the Australian Open in 2008, the US Open in 2006, and the Wimbledon in 2004.",
+    "dob": "1987-04-19"
+  },
+  {
+    "summary": "CEO and Founder of Stitch Fix",
+    "name": "Katrina Lake",
+    "img": "https://pbs.twimg.com/profile_images/870159478414393346/BMIKljK__400x400.jpg",
+    "is_guest": true,
+    "shark_id": 31,
+    "description": "Katrina Lake is the founder and CEO of Stitch Fix, an online personal styling service. She started the company in 2011 with the aim of making fashion more accessible and convenient for women. Today, Stitch Fix has over 2 million customers and a team of over 4,000 stylists.  Lake is a graduate of Harvard Business School and Stanford University. She has been featured on the cover of Forbes, Fortune, and Business Insider, and was named one of Time Magazine’s 100 Most Influential People in the World in 2017.",
+    "dob": "1982-12-10"
+  },
+  {
+    "summary": "Founder of Toms",
+    "name": "Blake Mycoskie",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Blake_Mycoskie_at_SXSW_2011.jpg/1024px-Blake_Mycoskie_at_SXSW_2011.jpg",
+    "is_guest": true,
+    "shark_id": 32,
+    "description": "Blake Mycoskie is a serial entrepreneur, philanthropist and bestselling author most known for founding TOMS Shoes and is the person behind the idea of One for One®, a business model that helps a person in need with every product purchased.  A simple idea grew into a global movement: While traveling in Argentina in 2006, Mycoskie witnessed the hardships faced by children growing up without shoes. His solution to the problem was simple yet revolutionary: create a for-profit business that was sustainable and not reliant on donations. Mycoskie's vision soon turned into the simple business idea that provided the powerful foundation for TOMS. Since its inception, TOMS Shoes has provided almost 96 million pairs of shoes to children around the globe.",
+    "dob": "1976-08-26"
+  },
+  {
+    "summary": "CEO and Founder of Kendra Scott",
+    "name": "Kendra Scott",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/KS-HOMESHOOT-2020-7674_%281%29_%281%29_%281%29_%281%29.jpg/1024px-KS-HOMESHOOT-2020-7674_%281%29_%281%29_%281%29_%281%29.jpg",
+    "is_guest": true,
+    "shark_id": 33,
+    "description": "Designer, founder and CEO Kendra Scott started her company in 2002 with only $500, just three months after her first son was born. As a creative mind with a love of natural gemstones, Scott began going door-to-door to Austin boutiques armed only with a tea box full of her jewelry, captivating businesses and customers with her vibrant personality and unique eye for design. Determined to maintain growth and preserve the vision of her business, Scott waited over 10 years to accept outside investments. She has since grown the company to a billion-dollar valuation with over 100 stores nationwide and a thriving e-commerce and wholesale business. According to a 2018 PitchBook study, Scott is among only 16 women in the United States to carry the title of founder of a company valued at $1 billion.",
+    "dob": "1974-03-27"
+  },
+  {
+    "summary": "Founder of Goop",
+    "name": "Gwyneth Paltrow",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/42/GwynethPaltrowByAndreaRaffin2011.jpg",
+    "is_guest": true,
+    "shark_id": 34,
+    "description": "Oscar-winning actress Gwyneth Paltrow, whose 1998 turn in \"Shakespeare in Love\" garnered her Best Actress honors at the Golden Globes®, Screen Actors Guild Awards®, and Academy Awards®, is also a decorated author, singer and entrepreneur. In addition, Paltrow has authored four New York Times Best Selling cookbooks: \"My Father's Daughter\" (2011), \"It's All Good\" (2013), \"It's All Easy\" (2016) and \"The Clean Plate\" (2019).  In 2008, Paltrow founded goop from her kitchen table. Goop has grown into a lifestyle brand devoted to helping women make their own choices count in the various facets of their lives—from style, travel, work, food and beauty to physical, mental and spiritual wellness. ",
+    "dob": "1972-09-27"
+  },
+  {
+    "summary": "CEO and Co-founder of DoorDash",
+    "name": "Tony Xu",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b2/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784924924%29.jpg",
+    "is_guest": true,
+    "shark_id": 35,
+    "description": "Tony is the CEO and co-founder of DoorDash (NYSE: DASH), a technology company that connects consumers with their favorite local businesses in 27 countries across the globe, on a mission to grow and empower local economies. Born in Nanjing, China, Xu came to America with his parents and grew up working in a restaurant alongside his mom. He and his co-founders started DoorDash to help local businesses like that restaurant succeed. Xu met his co-founders at Stanford. DoorDash grew out of their conversations with merchants, asking what hurdles they faced in growing their own businesses. The company began addressing the challenges of delivery from restaurants and has since expanded focus to include grocery, retail, beauty, alcohol, pet food, flowers and convenience.",
+    "dob": "1984-09-24"
+  }
+]
