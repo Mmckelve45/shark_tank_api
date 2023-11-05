@@ -162,7 +162,7 @@ async def create_episode(
 @router.post('/load_data_new', status_code=status.HTTP_201_CREATED)
 async def bulk_load_pitches(
                       db: db_dependency):
-    print('here?');
+    print('here?')
     pitch_data = 'assets/pitch_data.json'
     with open(pitch_data, 'r') as file:
         data = json.load(file)
@@ -197,7 +197,7 @@ async def bulk_load_pitches(
             air_date=pitch['air_date'],
             summary=pitch['summary'],
             entrepreneur_gender=pitch['entrepreneur_gender'],
-            entrepreneur=pitch['entrepreneur_gender'],
+            entrepreneur=pitch['entrepreneur'],
             is_deal=pitch['is_deal'],
             ask_amt=pitch['ask_amt'],
             ask_perc=pitch['ask_perc'],

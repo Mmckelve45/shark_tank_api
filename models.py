@@ -68,23 +68,4 @@ class Sharks(Base):
     is_guest = Column(Boolean, nullable=False)
 
 
-# class Users(Base):
-#     __tablename__ = 'users'
-#
-#     id = Column(String, primary_key=True, index=True)
-#     email = Column(String, unique=True)
-#     username = Column(String, unique=True)
-#     made_change = Column(Boolean, default=False)
-#     change_count = Column(Integer, default=0)
-#     proposed_count = Column(Integer, default=0)
 
-
-# class Todos(Base):
-#     __tablename__ = 'todos'
-#
-#     id = Column(Integer, primary_key=True, index=True)
-#     title = Column(String)
-#     description = Column(String)
-#     priority = Column(Integer)
-#     complete = Column(Boolean, default=False)
-#     owner_id: Column[int] = Column(Integer, ForeignKey("users.id"))

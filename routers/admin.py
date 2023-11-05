@@ -30,6 +30,7 @@ async def read_all(user: user_dependency, db: db_dependency):
         raise HTTPException(status_code=403, detail='Forbidden')
     return db.query(Todos).all()
 
+
 @router.delete('/todo/{todo_id}', status_code=status.HTTP_204_NO_CONTENT)
 async def delete_todo(user: user_dependency, db: db_dependency, todo_id: int = Path(gt=0)):
     if user is None or user.get('user_role') != 'admin':
