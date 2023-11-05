@@ -148,11 +148,11 @@ async def create_episode(
             deal_valuation=int(pitch['dealValuation'].replace(",", "")) if pitch['dealValuation'] != "" else None,
             deal_summary=pitch['dealSummary'] if pitch['dealSummary'] != "" else None,
             bite=int(pitch['bite'].replace(",", "")) if pitch['dealSummary'] != "" else None,
-            investors=sharks,
-            deal_structure=structure,
+            investors=sharks if len(sharks) != 0 else None,
+            deal_structure=structure if len(structure) != 0 else None,
             category=pitch['category'],
-            status=pitch['status'],
-            website=pitch['website']
+            status=pitch['status'] if pitch['status'] != "" else None,
+            website=pitch['website'] if pitch['website'] != "" else None
         )
 
         db.add(new_pitch)
