@@ -3,3 +3,6 @@ routers/users.py
 routers/todos.py
 routers/admin.py
 routers/auth.py
+assets/episode_data_old.json
+assets/investor_data_old.json
+assets/pitch_data_old.json

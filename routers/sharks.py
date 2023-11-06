@@ -42,8 +42,8 @@ async def get_all_sharks(db: db_dependency):
     return db.query(Sharks).order_by(Sharks.shark_id.asc()).all()
 
 
-@router.get("/byage", status_code=status.HTTP_200_OK)
-async def get_all_sharks_by_age(db: db_dependency):
+@router.get("/age", status_code=status.HTTP_200_OK)
+async def sort_all_sharks_by_age_oldest_to_youngest(db: db_dependency):
     return db.query(Sharks).order_by(Sharks.dob.asc()).all()
 
 

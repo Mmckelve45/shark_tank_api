@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from starlette import status
 
 from database import SessionLocal
-from models import Pitches
+from models import Pitches, Shark, Gender, Category
 import json
 
 
@@ -53,68 +53,6 @@ class Pitch(BaseModel):
     category: str
     status: str
     website: str
-
-
-class Category(str, Enum):
-    food = "Food & Beverage"
-    tech = "Software/Tech"
-    children = "Children"
-    services = "Services"
-    clothing = "Clothing/Fashion"
-    lifestyle = "Lifestyle/Home"
-    education = "Education"
-    accessories = "Accessories/Gadgets"
-    fitness = "Fitness/Outdoors"
-    pet = "Pet products"
-    cosmetics = "Cosmetics/Beauty"
-    health = "Health/Self Care"
-    travel = "Travel/Auto"
-    media = "Media/Entertainment"
-    other = "Other"
-
-
-class Gender(str, Enum):
-    male = 'Male'
-    female = 'Female'
-    hybrid = 'Hybrid'
-
-
-class Shark(str, Enum):
-    mc = "Mark Cuban"
-    lg = "Lori Greiner"
-    dj = "Daymond John"
-    kl = "Kevin O’Leary"
-    rh = "Robert Herjavec"
-    bc = "Barbara Corcoran"
-    eg = "Emma Grede"
-    kh = "Kevin Hart"
-    pj = "Peter Jones"
-    dl = "Daniel Lubetzky"
-    nt = "Nirav Tolia"
-    kha = "Kevin Harrington"
-    cs = "Chris Sacca"
-    jf = "Jeff Foxworthy"
-    jpd = "John Paul Dejoria"
-    st = "Steve Tisch"
-    nw = "Nick Woodman"
-    ak = "Ashton Kutcher"
-    tc = "Troy Carter"
-    rb = "Richard Branson"
-    ro = "Rohan Oza"
-    ar = "Alex Rodriguez"
-    sb = "Sara Blakely"
-    bf = "Bethenny Frankel"
-    js = "Jamie Siminoff"
-    mh = "Matt Higgins"
-    cb = "Charles Barkley"
-    aw = "Alli Webb"
-    awo = "Anne Wojcicki"
-    ms = "Maria Sharapova"
-    kla = "Katrina Lake"
-    bm = "Blake Mycoskie"
-    ks = "Kendra Scott"
-    gp = "Gwyneth Paltrow"
-    tx = "Tony Xu"
 
 
 @router.get("/", status_code=status.HTTP_200_OK)

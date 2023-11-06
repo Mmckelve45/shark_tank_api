@@ -30,7 +30,7 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 
-@app.post('/bulk_load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
+@app.post('/bulk_load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_data(db: db_dependency):
     try:
 

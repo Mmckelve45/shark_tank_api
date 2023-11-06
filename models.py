@@ -1,7 +1,10 @@
+from enum import Enum
+
 from database import Base
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, ARRAY, JSON, Numeric
 
 
+# ------- Tables -------
 class Seasons(Base):
     __tablename__ = 'seasons'
 
@@ -69,4 +72,65 @@ class Sharks(Base):
     is_guest = Column(Boolean, nullable=False)
 
 
+# ------- Enum Values -------
+class Shark(str, Enum):
 
+    mc = "Mark Cuban"
+    lg = "Lori Greiner"
+    dj = "Daymond John"
+    kl = "Kevin O’Leary"
+    rh = "Robert Herjavec"
+    bc = "Barbara Corcoran"
+    eg = "Emma Grede"
+    kh = "Kevin Hart"
+    pj = "Peter Jones"
+    dl = "Daniel Lubetzky"
+    nt = "Nirav Tolia"
+    kha = "Kevin Harrington"
+    cs = "Chris Sacca"
+    jf = "Jeff Foxworthy"
+    jpd = "John Paul Dejoria"
+    st = "Steve Tisch"
+    nw = "Nick Woodman"
+    ak = "Ashton Kutcher"
+    tc = "Troy Carter"
+    rb = "Richard Branson"
+    ro = "Rohan Oza"
+    ar = "Alex Rodriguez"
+    sb = "Sara Blakely"
+    bf = "Bethenny Frankel"
+    js = "Jamie Siminoff"
+    mh = "Matt Higgins"
+    cb = "Charles Barkley"
+    aw = "Alli Webb"
+    awo = "Anne Wojcicki"
+    ms = "Maria Sharapova"
+    kla = "Katrina Lake"
+    bm = "Blake Mycoskie"
+    ks = "Kendra Scott"
+    gp = "Gwyneth Paltrow"
+    tx = "Tony Xu"
+
+
+class Gender(str, Enum):
+    male = 'Male'
+    female = 'Female'
+    hybrid = 'Hybrid'
+
+
+class Category(str, Enum):
+    food = "Food & Beverage"
+    tech = "Software/Tech"
+    children = "Children"
+    services = "Services"
+    clothing = "Clothing/Fashion"
+    lifestyle = "Lifestyle/Home"
+    education = "Education"
+    accessories = "Accessories/Gadgets"
+    fitness = "Fitness/Outdoors"
+    pet = "Pet products"
+    cosmetics = "Cosmetics/Beauty"
+    health = "Health/Self Care"
+    travel = "Travel/Auto"
+    media = "Media/Entertainment"
+    other = "Other"
