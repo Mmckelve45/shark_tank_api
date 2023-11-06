@@ -42,6 +42,11 @@ async def get_all_sharks(db: db_dependency):
     return db.query(Sharks).order_by(Sharks.shark_id.asc()).all()
 
 
+@router.get("/byage", status_code=status.HTTP_200_OK)
+async def get_all_sharks_by_age(db: db_dependency):
+    return db.query(Sharks).order_by(Sharks.dob.asc()).all()
+
+
 @router.post('/load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
 async def bulk_load_sharks(
                       db: db_dependency):
