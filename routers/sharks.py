@@ -51,7 +51,7 @@ async def sort_all_sharks_by_age_oldest_to_youngest(db: db_dependency):
 async def bulk_load_sharks(
                       db: db_dependency):
 
-    shark_data = 'assets/investor_data.json'
+    shark_data = 'assets/shark_data.json'
     with open(shark_data, 'r') as file:
         data = json.load(file)
 
