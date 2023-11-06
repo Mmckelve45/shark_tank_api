@@ -30,7 +30,7 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 
-@app.post('/bulk_load_data', status_code=status.HTTP_201_CREATED)
+@app.post('/bulk_load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
 async def bulk_load_data(db: db_dependency):
     try:
 
@@ -38,7 +38,7 @@ async def bulk_load_data(db: db_dependency):
         await sharks.bulk_load_sharks(db)
         # need to load seasons before episodes because season_id is a Foreign Key
         await episodes.bulk_load_episodes(db)
-        # need to load seasons and episodes before pitches because season_id/episode_id are Foreign Keys
+        # need to load seasons before pitches because season_id is a Foreign Key
         await pitches.bulk_load_pitches(db)
 
     except Exception as e:

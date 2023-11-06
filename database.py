@@ -12,7 +12,7 @@ from config import NEON_DATABASE_URL
 # engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={'check_same_thread': False})
 
 
-# ----- Postgres ------ (Best Option for easy setup)
+# ----- Postgres ------ (Best Option for easy setup - Recommended)
 # Load the data with postgres localDB - create a Server/DB in postgres and give it a password
 # SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
 # SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/TodoApplicationDatabase'
@@ -23,7 +23,7 @@ from config import NEON_DATABASE_URL
 # I am not affiliated with them but its probably one of the only free tier postgres hosting sites out there.
 # Here's an example of what the database url looks like:
 # DATABASE_URL="postgresql://alex:AbC123dEf@ep-cool-darkness-123456.us-east-2.aws.neon.tech/dbname"
-# please not that the docs will say postgres:// (make sure you say postgresql://)
+# please note that the docs will say postgres:// (make sure you say postgresql://)
 # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
 engine = create_engine(NEON_DATABASE_URL)
 
