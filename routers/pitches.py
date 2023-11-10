@@ -62,8 +62,8 @@ async def get_all_pitches(db: db_dependency):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
         # You may want to customize the error message based on the exception
 
 
@@ -74,8 +74,8 @@ async def get_pitches_by_name(db: db_dependency, name: str):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/category", status_code=status.HTTP_200_OK)
@@ -85,8 +85,8 @@ async def get_pitches_by_category(db: db_dependency, category: Category):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/gender", status_code=status.HTTP_200_OK)
@@ -96,8 +96,8 @@ async def get_pitches_by_entrepreneur_gender(db: db_dependency, gender: Gender):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/deal", status_code=status.HTTP_200_OK)
@@ -107,8 +107,8 @@ async def get_pitches_by_deal_made_or_not(db: db_dependency, is_deal: bool):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/shark", status_code=status.HTTP_200_OK)
@@ -118,8 +118,8 @@ async def get_pitches_by_shark_investor(db: db_dependency, investor: Shark):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/{pitch_id}", status_code=status.HTTP_200_OK)
@@ -129,8 +129,8 @@ async def get_pitch_by_id(db: db_dependency, pitch_id: int = Path(gt=0)):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/season/{season_id}", status_code=status.HTTP_200_OK)
@@ -140,8 +140,8 @@ async def get_pitches_by_season(db: db_dependency, season_id: int = Path(gt=0)):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.post('/', include_in_schema=False, status_code=status.HTTP_201_CREATED)

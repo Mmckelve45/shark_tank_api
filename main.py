@@ -8,9 +8,26 @@ from database import engine
 from sqlalchemy.orm import Session
 from database import SessionLocal
 from routers import episodes, pitches, sharks, seasons
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
 
-# only is run if the todos.db does not exist
+# If you want to run this locally and have another local application call it you need to specify cors
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# only is run if the database does not exist
 models.Base.metadata.create_all(bind=engine)
 
 app.include_router(episodes.router)
@@ -30,6 +47,9 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 
+# Bulk load all the data into the database.  Seasons, Sharks, Episodes, and Pitches
+# You should call when you run the application for the first time.
+# This populates your PostgresDB with all the data in the assets folder.
 @app.post('/bulk_load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_data(db: db_dependency):
     try:

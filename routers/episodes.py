@@ -59,8 +59,9 @@ async def get_all_episodes(db: db_dependency):
         return db.query(Episodes).order_by(Episodes.episode_id.asc()).all()
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # print(f"Error: {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
         # You may want to customize the error message based on the exception
 
 
@@ -71,8 +72,8 @@ async def get_episodes_by_shark_involved(db: db_dependency, shark: Shark):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/season/{season_id}", status_code=status.HTTP_200_OK)
@@ -82,8 +83,8 @@ async def get_episodes_by_season(db: db_dependency, season_id: int = Path(gt=0))
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.get("/{episode_id}", status_code=status.HTTP_200_OK)
@@ -93,10 +94,8 @@ async def get_episode_by_id(db: db_dependency, episode_id: int = Path(gt=0)):
 
     except Exception as e:
         # Handle exceptions and set an appropriate status code
-        print(f"Error: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
-
-
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.post('/', include_in_schema=False, status_code=status.HTTP_201_CREATED)

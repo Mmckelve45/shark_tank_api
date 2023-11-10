@@ -1,6 +1,6 @@
 from typing import Annotated, List
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException, Path
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from starlette import status
@@ -38,7 +38,13 @@ class Season(BaseModel):
 
 @router.get("/", status_code=status.HTTP_200_OK)
 async def get_all_seasons(db: db_dependency):
-    return db.query(Seasons).order_by(Seasons.season_id.asc()).all()
+    try:
+        return db.query(Seasons).order_by(Seasons.season_id.asc()).all()
+    except Exception as e:
+        # Handle exceptions and set an appropriate status code
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
+        # You may want to customize the error message based on the exception
 
 
 @router.post('/', include_in_schema=False, status_code=status.HTTP_201_CREATED)
@@ -48,6 +54,17 @@ async def create_season(
     season_model = Seasons(**season_request.model_dump())
     db.add(season_model)
     db.commit()
+
+
+@router.get("/{season_id}", status_code=status.HTTP_200_OK)
+async def get_season_by_id(db: db_dependency, season_id: int = Path(gt=0)):
+    try:
+        return db.query(Seasons).filter(Seasons.season_id == season_id).first()
+
+    except Exception as e:
+        # Handle exceptions and set an appropriate status code
+        # raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again! {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
 @router.post('/load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
