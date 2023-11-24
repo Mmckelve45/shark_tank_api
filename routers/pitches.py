@@ -155,7 +155,7 @@ async def create_pitch(
     db.commit()
 
 
-@router.post('/load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
+@router.post('/load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_pitches(
                       db: db_dependency):
     pitch_data = 'assets/pitch_data.json'
