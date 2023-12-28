@@ -33,12 +33,12 @@ class Company(BaseModel):
     id: int
 
     # to_dict just made my life easier on initial load with unformatted data
-    # def to_dict(self):
-    #     return {
-    #         "name": self.name,
-    #         "isDeal": self.isDeal,
-    #         "id": self.id
-    #     }
+    def to_dict(self):
+        return {
+            "name": self.name,
+            "isDeal": self.isDeal,
+            "id": self.id
+        }
 
 
 class Episode(BaseModel):
@@ -107,14 +107,20 @@ async def create_episode(
     db.commit()
 
 
-@router.post('/load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
+@router.post('/load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_episodes(
                       db: db_dependency):
     episode_data = 'assets/episode_data.json'
     with open(episode_data, 'r') as file:
         data = json.load(file)
 
+    # Need to re-upload and increment the id in companies by 1
     for ep in data:
+
+        # Increment company IDs by 1
+        for company in ep['companies']:
+            company['id'] += 1
+
         new_ep = Episodes(
             episode_id=ep['episode_id'],
             sharks=ep['sharks'],
@@ -124,7 +130,14 @@ async def bulk_load_episodes(
             title=ep['title'],
             date=ep['date'],
             wikipedia_url=ep['wikipedia_url'],
-            companies=ep['companies']
+            # companies=ep['companies']
         )
+
+        # Create Companies instances using to_dict method
+        companies = [
+            Company(**company).to_dict()
+            for company in ep['companies']
+        ]
+        new_ep.companies = companies
         db.add(new_ep)
     db.commit()

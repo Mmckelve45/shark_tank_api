@@ -313,5 +313,14 @@
     "shark_id": 35,
     "description": "Tony is the CEO and co-founder of DoorDash (NYSE: DASH), a technology company that connects consumers with their favorite local businesses in 27 countries across the globe, on a mission to grow and empower local economies. Born in Nanjing, China, Xu came to America with his parents and grew up working in a restaurant alongside his mom. He and his co-founders started DoorDash to help local businesses like that restaurant succeed. Xu met his co-founders at Stanford. DoorDash grew out of their conversations with merchants, asking what hurdles they faced in growing their own businesses. The company began addressing the challenges of delivery from restaurants and has since expanded focus to include grocery, retail, beauty, alcohol, pet food, flowers and convenience.",
     "dob": "1984-09-24"
+  },
+  {
+    "summary": "Founder of Sprinkles Cupcakes",
+    "name": "Candace Nelson",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Candace_Nelson_-_Female_Entrepreneur.jpg/220px-Candace_Nelson_-_Female_Entrepreneur.jpg",
+    "is_guest": true,
+    "shark_id": 36,
+    "description": "Candace Nelson is a serial entrepreneur, a New York Times and Wall Street Journal bestselling author, Wall Street Journal contributor and an expert in turning one's passion into a profitable business.  Her debut book \"The Sprinkles Baking Book: 100 Secret Recipes from Candace's Kitchen\" is a New York Times bestseller. Nelson revolutionized the baking industry when she left a career in finance to start Sprinkles, the world's first cupcake bakery and Cupcake ATM. She followed with the launch of Pizzana, a growing chain of Michelin Bib Gourmand-awarded pizzerias leading the third wave of pizza in the U.S. She continues to expand her portfolio of investments with CN2 Ventures and lives in Los Angeles with her husband and two sons.",
+    "dob": "1974-05-08"
   }
 ]

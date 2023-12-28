@@ -78,7 +78,7 @@ class Shark(str, Enum):
     mc = "Mark Cuban"
     lg = "Lori Greiner"
     dj = "Daymond John"
-    kl = "Kevin O’Leary"
+    kl = "Kevin O'Leary"
     rh = "Robert Herjavec"
     bc = "Barbara Corcoran"
     eg = "Emma Grede"
@@ -110,6 +110,7 @@ class Shark(str, Enum):
     ks = "Kendra Scott"
     gp = "Gwyneth Paltrow"
     tx = "Tony Xu"
+    cn = "Candace Nelson"
 
 
 class Gender(str, Enum):

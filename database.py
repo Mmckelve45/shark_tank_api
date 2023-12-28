@@ -14,9 +14,9 @@ from config import NEON_DATABASE_URL
 
 # ----- Postgres ------ (Best Option for easy setup - Recommended)
 # Load the data with postgres localDB - create a Server/DB in postgres and give it a password
-# SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
 # SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/TodoApplicationDatabase'
-# engine = create_engine(SQLALCHEMY_DATABASE_URL)
+engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
 # ----- Neon Tech ----- (https://neon.tech/)
 # Neon Tech is an open source, serverless postgres platform.  They have a free tier.
@@ -25,7 +25,7 @@ from config import NEON_DATABASE_URL
 # DATABASE_URL="postgresql://alex:AbC123dEf@ep-cool-darkness-123456.us-east-2.aws.neon.tech/dbname"
 # please note that the docs will say postgres:// (make sure you say postgresql://)
 # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
-engine = create_engine(NEON_DATABASE_URL)
+# engine = create_engine(NEON_DATABASE_URL)
 
 # ----------------------
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
