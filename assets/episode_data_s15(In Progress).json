@@ -1,0 +1,344 @@
+[
+  {
+    "episode": 1,
+    "episode_id": 318,
+    "title": "\"Episode 1\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 318,
+    "sharks": [
+      "Mark Cuban",
+      "Candace Nelson",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-09-29",
+    "companies": [
+      {
+        "id": 1272,
+        "name": "Gatsby Chocolate",
+        "isDeal": true
+      },
+      {
+        "id": 1273,
+        "name": "Pie Wine",
+        "isDeal": false
+      },
+      {
+        "id": 1274,
+        "name": "Worthy Brands",
+        "isDeal": true
+      },
+      {
+        "id": 1275,
+        "name": "Gently Soaps",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 2,
+    "episode_id": 319,
+    "title": "\"Episode 2\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 319,
+    "sharks": [
+      "Mark Cuban",
+      "Daniel Lubetzky",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-10-06",
+    "companies": [
+      {
+        "id": 1276,
+        "name": "Stormbag",
+        "isDeal": true
+      },
+      {
+        "id": 1277,
+        "name": "Return Home",
+        "isDeal": false
+      },
+      {
+        "id": 1278,
+        "name": "Matador Meggings",
+        "isDeal": true
+      },
+      {
+        "id": 1279,
+        "name": "Toast-It Arepas",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 3,
+    "episode_id": 320,
+    "title": "\"Episode 3\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 320,
+    "sharks": [
+      "Mark Cuban",
+      "Michael Rubin",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-10-13",
+    "companies": [
+      {
+        "id": 1280,
+        "name": "Glove Wrap",
+        "isDeal": true
+      },
+      {
+        "id": 1281,
+        "name": "Wellingtons",
+        "isDeal": false
+      },
+      {
+        "id": 1282,
+        "name": "Bot-It",
+        "isDeal": true
+      },
+      {
+        "id": 1283,
+        "name": "Dating By Blaine",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 4,
+    "episode_id": 321,
+    "title": "\"Episode 4\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 321,
+    "sharks": [
+      "Mark Cuban",
+      "Barbara Corcoran",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-10-20",
+    "companies": [
+      {
+        "id": 1284,
+        "name": "Paddlesmash",
+        "isDeal": true
+      },
+      {
+        "id": 1285,
+        "name": "FairyTail Pet Care",
+        "isDeal": false
+      },
+      {
+        "id": 1286,
+        "name": "Monosuit",
+        "isDeal": true
+      },
+      {
+        "id": 1287,
+        "name": "Buena Papa",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 5,
+    "episode_id": 322,
+    "title": "\"Episode 5\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 322,
+    "sharks": [
+      "Mark Cuban",
+      "Barbara Corcoran",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Jason Blum"
+    ],
+    "season_id": 15,
+    "date": "2023-10-27",
+    "companies": [
+      {
+        "id": 1288,
+        "name": "Thrill Builders",
+        "isDeal": true
+      },
+      {
+        "id": 1289,
+        "name": "I Love Chamoy",
+        "isDeal": false
+      },
+      {
+        "id": 1290,
+        "name": "Maniac Pumpkin Carvers",
+        "isDeal": true
+      },
+      {
+        "id": 1291,
+        "name": "American Ghost Walks",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 6,
+    "episode_id": 323,
+    "title": "\"Episode 6\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 323,
+    "sharks": [
+      "Mark Cuban",
+      "Robert Herjavec",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-11-03",
+    "companies": [
+      {
+        "id": 1292,
+        "name": "Supermix Studio",
+        "isDeal": true
+      },
+      {
+        "id": 1293,
+        "name": "TIK PIK",
+        "isDeal": false
+      },
+      {
+        "id": 1294,
+        "name": "Mini Materials",
+        "isDeal": true
+      },
+      {
+        "id": 1295,
+        "name": "Krapp Strapp",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 7,
+    "episode_id": 324,
+    "title": "\"Episode 7\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 324,
+    "sharks": [
+      "Mark Cuban",
+      "Barbara Corcoran",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-11-17",
+    "companies": [
+      {
+        "id": 1296,
+        "name": "Bunny Eyez",
+        "isDeal": true
+      },
+      {
+        "id": 1297,
+        "name": "Yum Crumbs",
+        "isDeal": false
+      },
+      {
+        "id": 1298,
+        "name": "Rekkie",
+        "isDeal": true
+      },
+      {
+        "id": 1299,
+        "name": "The Fidget Game",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 8,
+    "episode_id": 325,
+    "title": "\"Episode 8\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 325,
+    "sharks": [
+      "Mark Cuban",
+      "Barbara Corcoran",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Daymond John"
+    ],
+    "season_id": 15,
+    "date": "2023-12-08",
+    "companies": [
+      {
+        "id": 1300,
+        "name": "Black Paper Party",
+        "isDeal": true
+      },
+      {
+        "id": 1301,
+        "name": "Pick-Up Bricks",
+        "isDeal": false
+      },
+      {
+        "id": 1302,
+        "name": "Snow in Seconds",
+        "isDeal": true
+      },
+      {
+        "id": 1303,
+        "name": "Tomte Cake",
+        "isDeal": true
+      }
+    ]
+  },
+  {
+    "episode": 9,
+    "episode_id": 326,
+    "title": "\"Episode 9\"",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_15)",
+    "episode_all": 326,
+    "sharks": [
+      "Mark Cuban",
+      "Robert Herjavec",
+      "Kevin O'Leary",
+      "Lori Greiner",
+      "Emma Grede"
+    ],
+    "season_id": 15,
+    "date": "2023-12-15",
+    "companies": [
+      {
+        "id": 1304,
+        "name": "Rebel Cheese",
+        "isDeal": true
+      },
+      {
+        "id": 1305,
+        "name": "The Pocket Panty",
+        "isDeal": false
+      },
+      {
+        "id": 1306,
+        "name": "FlyWithWine",
+        "isDeal": true
+      },
+      {
+        "id": 1307,
+        "name": "CAKES body",
+        "isDeal": true
+      }
+    ]
+  }
+]

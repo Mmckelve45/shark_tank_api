@@ -30,10 +30,10 @@ app.add_middleware(
 # only is run if the database does not exist
 models.Base.metadata.create_all(bind=engine)
 
-app.include_router(episodes.router)
-app.include_router(pitches.router)
 app.include_router(sharks.router)
 app.include_router(seasons.router)
+app.include_router(episodes.router)
+app.include_router(pitches.router)
 
 
 def get_db():
@@ -47,8 +47,8 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 
-# Bulk load all the data into the database.  Seasons, Sharks, Episodes, and Pitches
-# You should call when you run the application for the first time.
+# Bulk load all the data into the database.  Sharks, Seasons, Episodes, and Pitches
+# You should call when you run the application for the first time once you have configured your databaseURL
 # This populates your PostgresDB with all the data in the assets folder.
 @app.post('/bulk_load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_data(db: db_dependency):
@@ -68,4 +68,3 @@ async def bulk_load_data(db: db_dependency):
         # You may want to customize the error message based on the exception
 
     return
-

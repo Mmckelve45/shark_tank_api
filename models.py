@@ -23,7 +23,7 @@ class Episodes(Base):
     sharks = Column(ARRAY(String), nullable=False)
     season_id = Column(Integer, ForeignKey('seasons.season_id'), nullable=False)
     episode = Column(Integer, nullable=False)
-    episode_all = Column(Integer, unique=True, nullable=False)
+    # episode_all = Column(Integer, unique=True, nullable=False)
     title = Column(String, nullable=False)
     date = Column(String, nullable=False)
     wikipedia_url = Column(String, nullable=False)
@@ -111,6 +111,8 @@ class Shark(str, Enum):
     gp = "Gwyneth Paltrow"
     tx = "Tony Xu"
     cn = "Candace Nelson"
+    mr = "Michael Rubin"
+    jb = "Jason Blum"
 
 
 class Gender(str, Enum):

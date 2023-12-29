@@ -118,26 +118,26 @@ async def bulk_load_episodes(
     for ep in data:
 
         # Increment company IDs by 1
-        for company in ep['companies']:
-            company['id'] += 1
+        # for company in ep['companies']:
+        #     company['id'] += 1
 
         new_ep = Episodes(
             episode_id=ep['episode_id'],
             sharks=ep['sharks'],
             season_id=ep['season_id'],
             episode=ep['episode'],
-            episode_all=ep['episode_all'],
+            # episode_all=ep['episode_all'],
             title=ep['title'],
             date=ep['date'],
             wikipedia_url=ep['wikipedia_url'],
-            # companies=ep['companies']
+            companies=ep['companies']
         )
 
         # Create Companies instances using to_dict method
-        companies = [
-            Company(**company).to_dict()
-            for company in ep['companies']
-        ]
-        new_ep.companies = companies
+        # companies = [
+        #     Company(**company).to_dict()
+        #     for company in ep['companies']
+        # ]
+        # new_ep.companies = companies
         db.add(new_ep)
     db.commit()

@@ -38540,5 +38540,1143 @@
     "investors": [
       "Lori Greiner"
     ]
+  },
+  {
+   "pitch_id": 1236,
+   "name": "FunkkOFF",
+   "season_id": 14,
+   "episode": 14,
+   "air_date": "2/17/2023",
+   "summary": "The 1st and only multi-patented 2-in-1 toothbrush & toothpaste that is reusable (30x) that keeps your teeth fresh and white on-the-go.",
+   "entrepreneur_gender": "Female",
+   "entrepreneur": [
+      "Joelle Flynn",
+      "Sonia Hounsell"
+   ],
+   "is_deal": true,
+   "ask_amt": 250000,
+   "ask_perc": 0.05,
+   "ask_valuation": 5000000,
+   "ask_summary": "$250,000 for 5%",
+   "deal_amt_equity": 250000,
+   "deal_perc_equity": 0.12,
+   "deal_amt_debt": null,
+   "deal_valuation": 2083333,
+   "deal_summary": "$250,000 for 12%",
+   "bite": -2916667,
+   "investors": [
+      "Robert Herjavec"
+   ],
+   "deal_structure": [
+      "Equity"
+   ],
+   "category": "Health_SelfCare",
+   "status": "In Business",
+   "website": "funkkoff.com"
+   },
+   {
+     "pitch_id": 1237,
+     "name": "Retold Recycling",
+     "season_id": 14,
+     "episode": 14,
+     "air_date": "2/17/2023",
+     "summary": "California-based start-up Retold Recycling is a convenient mail-in service for recycling any and all household textiles, sustainably diverting them from landfill. ",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Alan Yeoh",
+        "Amelia Trumble"
+     ],
+     "is_deal": true,
+     "ask_amt": 300000,
+     "ask_perc": 0.15,
+     "ask_valuation": 2000000,
+     "ask_summary": "$300,000 for 15%",
+     "deal_amt_equity": 300000,
+     "deal_perc_equity": 0.25,
+     "deal_amt_debt": null,
+     "deal_valuation": 1200000,
+     "deal_summary": "$300,000 for 25%",
+     "bite": -800000,
+     "investors": [
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "retoldrecycling.com"
+  },
+   {
+     "pitch_id": 1238,
+     "name": "The Chub Rub Patch",
+     "season_id": 14,
+     "episode": 14,
+     "air_date": "2/17/2023",
+     "summary": "The Chub Rub Patch is an anti-chafing tool designed to prevent any friction from occurring between your thighs so that you can enjoy your daily activities without any worries! ",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Brittany Lammon"
+     ],
+     "is_deal": false,
+     "ask_amt": 200000,
+     "ask_perc": 0.3,
+     "ask_valuation": 666667,
+     "ask_summary": "$200,000 for 30%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Health_SelfCare",
+     "status": "In Business",
+     "website": "thechubrubpatch.shop"
+  },
+   {
+     "pitch_id": 1239,
+     "name": "Kahawa 1893",
+     "season_id": 14,
+     "episode": 14,
+     "air_date": "2/17/2023",
+     "summary": "Kahawa 1893 is a specialty coffee company founded by Margaret Nyamumbo, a third-generation coffee farmer from Kenya. Growing up, she observed that women supply 90% of coffee production labor but often see little or no financial gain.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Maggy Nyamumbo"
+     ],
+     "is_deal": true,
+     "ask_amt": 350000,
+     "ask_perc": 0.05,
+     "ask_valuation": 7000000,
+     "ask_summary": "$350,000 for 5%",
+     "deal_amt_equity": 350000,
+     "deal_perc_equity": 0.08,
+     "deal_amt_debt": null,
+     "deal_valuation": 4375000,
+     "deal_summary": "$350,000 for 8%",
+     "bite": -2625000,
+     "investors": [
+        "Emma Grede"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "kahawa1893.com"
+  },
+   {
+     "pitch_id": 1240,
+     "name": "Eat Your Flowers",
+     "season_id": 14,
+     "episode": 15,
+     "air_date": "3/3/2023",
+     "summary": "Eat Your Flowers by Loria Stern is the original edible flower baking company that ships our bespoke products nationally.  We never use any preservatives or artificial colorants or ingredients in our baked goods.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Loria Stern"
+     ],
+     "is_deal": true,
+     "ask_amt": 250000,
+     "ask_perc": 0.12,
+     "ask_valuation": 2083333,
+     "ask_summary": "$250,000 for 12%",
+     "deal_amt_equity": 250000,
+     "deal_perc_equity": 0.15,
+     "deal_amt_debt": null,
+     "deal_valuation": 1666667,
+     "deal_summary": "$250,000 for 15%",
+     "bite": -416667,
+     "investors": [
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "eatyourflowers.com"
+  },
+   {
+     "pitch_id": 1241,
+     "name": "Surf Band Pro",
+     "season_id": 14,
+     "episode": 15,
+     "air_date": "3/3/2023",
+     "summary": "Surf Band Pro is the all-in-one device for sun protection, mosquito repellent, and hand sanitizer.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Greg Demirjian"
+     ],
+     "is_deal": false,
+     "ask_amt": 150000,
+     "ask_perc": 0.1,
+     "ask_valuation": 1500000,
+     "ask_summary": "$150,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Fitness_Outdoors",
+     "status": "In Business",
+     "website": "surfbandpro.com"
+  },
+   {
+     "pitch_id": 1242,
+     "name": "Youthforia",
+     "season_id": 14,
+     "episode": 15,
+     "air_date": "3/3/2023",
+     "summary": "Youthforia creates makeup you can sleep in. All of the products are tested by the founder Fiona Co Chan and her husband sleeping in it for an extended period of time. They are best known for creating the world's first color changing blush oil that's become viral and a bestselling hit.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Fiona Co Chan"
+     ],
+     "is_deal": true,
+     "ask_amt": 400000,
+     "ask_perc": 0.05,
+     "ask_valuation": 8000000,
+     "ask_summary": "$400,000 for 5%",
+     "deal_amt_equity": 400000,
+     "deal_perc_equity": 0.08,
+     "deal_amt_debt": null,
+     "deal_valuation": 5000000,
+     "deal_summary": "$400,000 for 8%",
+     "bite": -3000000,
+     "investors": [
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Cosmetics_Beauty",
+     "status": "In Business",
+     "website": "youthforia.co"
+  },
+   {
+     "pitch_id": 1243,
+     "name": "Big Mouth Toothbrush",
+     "season_id": 14,
+     "episode": 15,
+     "air_date": "3/3/2023",
+     "summary": "Dr. Bobbi is dedicated to providing everyone with access to better smiles and better oral health through her practice Aces Braces located in Brooklyn, NY. As the first black woman orthodontist to design an innovative toothbrush, Big Mouth Toothbrush, Dr. Bobbi's mission is to create oral health products that improve overall wellness.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Bobbi Peterson"
+     ],
+     "is_deal": true,
+     "ask_amt": 150000,
+     "ask_perc": 0.1,
+     "ask_valuation": 1500000,
+     "ask_summary": "$150000 for 10%",
+     "deal_amt_equity": 150000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 750000,
+     "deal_summary": "$150,000 for 20% + $2 royalty on each sale in perpetuity",
+     "bite": -750000,
+     "investors": [
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Royalty"
+     ],
+     "category": "Health_SelfCare",
+     "status": "In Business",
+     "website": "bigmouthtoothbrush.com"
+  },
+   {
+     "pitch_id": 1244,
+     "name": "Pluie",
+     "season_id": 14,
+     "episode": 16,
+     "air_date": "3/10/2023",
+     "summary": "Meet Pluie™, the world's first and only self-sanitizing diaper changing table for public restrooms. Powered by a patented UV-C light system, Pluie automatically sanitizes the changing surface in 60 seconds after every use to protect babies from harmful germs and bacteria. The signature table's modern design includes first-to-market features such as a plush cushion, a retractable security strap and multipurpose handles to hang a bag. Pluie is proud to be female founded, owned and operated by Addie Gundry and Brittany Hizer, two moms on a mission to improve experiences for families when on-the-go!",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Addie Gundry",
+        "Brittany Hizer"
+     ],
+     "is_deal": false,
+     "ask_amt": 500000,
+     "ask_perc": 0.05,
+     "ask_valuation": 10000000,
+     "ask_summary": "$500,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Children",
+     "status": "In Business",
+     "website": "hellopluie.com"
+  },
+   {
+     "pitch_id": 1245,
+     "name": "Flated",
+     "season_id": 14,
+     "episode": 16,
+     "air_date": "3/10/2023",
+     "summary": "FLATED specializes in making innovative and high-quality, drop-stitch inflatable automotive accessories. Founded in 2020 by outdoor gear and stand-up paddle board industry experts, the brand has become known for inventing the world's first inflatable truck topper and inflatable rooftop cargo carrier.",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Ken Hoeve",
+        "Monique Keefer",
+        "Ryan Guay"
+     ],
+     "is_deal": true,
+     "ask_amt": 350000,
+     "ask_perc": 0.05,
+     "ask_valuation": 7000000,
+     "ask_summary": "$350,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": "$350,000 for 8% of every unit sold until he recoups his money, then the royalty is reduced to 5% of each unit sold in perpetuity.",
+     "bite": null,
+     "investors": [
+        "Daymond John"
+     ],
+     "deal_structure": [
+        "Royalty"
+     ],
+     "category": "Travel_Auto",
+     "status": "In Business",
+     "website": "getflated.com"
+  },
+   {
+     "pitch_id": 1246,
+     "name": "Woof",
+     "season_id": 14,
+     "episode": 16,
+     "air_date": "3/10/2023",
+     "summary": "Woof believes that pets are family – that's why we're on a mission to bring pet parents across the country the ultimate peace of mind. Our innovative smartphone app and services are designed to rescue pets if something unexpectedly happens to their owner. Woof is available now on both iOS and Android devices.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Arsy Khodabandelou"
+     ],
+     "is_deal": false,
+     "ask_amt": 100000,
+     "ask_perc": 0.1,
+     "ask_valuation": 1000000,
+     "ask_summary": "$100,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Software_Tech",
+     "status": "In Business",
+     "website": "woofhelp.com"
+  },
+   {
+     "pitch_id": 1247,
+     "name": "Sweetkiwi",
+     "season_id": 14,
+     "episode": 16,
+     "air_date": "3/10/2023",
+     "summary": "Sweetkiwi is a 'Whipped Greek Yogurt' made using a holistic approach that carefully selects ingredients that work better together to support gut health, wellness, and nutrient absorption.",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Michael Akindele",
+        "Ehime Eigbe"
+     ],
+     "is_deal": true,
+     "ask_amt": 250000,
+     "ask_perc": 0.05,
+     "ask_valuation": 5000000,
+     "ask_summary": "$250,000 for 5%",
+     "deal_amt_equity": 250000,
+     "deal_perc_equity": 0.16,
+     "deal_amt_debt": null,
+     "deal_valuation": 1562500,
+     "deal_summary": "$250,000 for 16%",
+     "bite": -3437500,
+     "investors": [
+        "Robert Herjavec"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "sweetkiwi.com"
+  },
+   {
+     "pitch_id": 1248,
+     "name": "Crispy Cones",
+     "season_id": 14,
+     "episode": 17,
+     "air_date": "3/17/2023",
+     "summary": "Crispy Cones is a unique dessert shop that is revolutionizing the soft serve cone! A crispy cone is a fresh dough cone grilled rotisserie-style and covered with cinnamon and sugar. The cone is filled with your choice of spread, gourmet soft-serve ice cream, a variety of delicious toppings, and a drizzle of sauce on top!",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Jeremy Carson",
+        "Kaitlyn Carson"
+     ],
+     "is_deal": true,
+     "ask_amt": 200000,
+     "ask_perc": 0.1,
+     "ask_valuation": 2000000,
+     "ask_summary": "$200,000 for 10%",
+     "deal_amt_equity": 200000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 1000000,
+     "deal_summary": "$200,000 for 20%",
+     "bite": -1000000,
+     "investors": [
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "thecrispycones.com"
+  },
+   {
+     "pitch_id": 1249,
+     "name": "Chubby Buttons",
+     "season_id": 14,
+     "episode": 17,
+     "air_date": "3/17/2023",
+     "summary": "Chubby Buttons is a small company made of best friends who shared one vision. We wanted to come up with a quick and easy solution to control our smartphones, rather than them controlling us. Chubby Buttons is the ultimate wearable remote for action sports.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Mike Cherkezian",
+        "Justin Barad"
+     ],
+     "is_deal": false,
+     "ask_amt": 250000,
+     "ask_perc": 0.08,
+     "ask_valuation": 3125000,
+     "ask_summary": "$250,000 for 8%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Software_Tech",
+     "status": "In Business",
+     "website": "chubbybuttons.io"
+  },
+   {
+     "pitch_id": 1250,
+     "name": "Autio",
+     "season_id": 14,
+     "episode": 17,
+     "air_date": "3/17/2023",
+     "summary": "The Autio app is your audio travel companion with 10,000+ location-based audio stories across the US. It's like having a personal tour guide on demand.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Woody Sears"
+     ],
+     "is_deal": false,
+     "ask_amt": 1000000,
+     "ask_perc": 0.05,
+     "ask_valuation": 20000000,
+     "ask_summary": "$1,000,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Software_Tech",
+     "status": "In Business",
+     "website": "autio.com"
+  },
+   {
+     "pitch_id": 1251,
+     "name": "Tngnt Ski Bikes",
+     "season_id": 14,
+     "episode": 17,
+     "air_date": "3/17/2023",
+     "summary": "Want to try something new and fun this winter? Try a Tngnt Ski Bike! Tngnt Ski Bikes builds all-mountain ski bikes for riders of all abilities. Ride all year on a Tngnt Ski Bike!",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Scott Carr",
+        "Bill Pierce"
+     ],
+     "is_deal": true,
+     "ask_amt": 200000,
+     "ask_perc": 0.2,
+     "ask_valuation": 1000000,
+     "ask_summary": "$200,000 for 20%",
+     "deal_amt_equity": 200000,
+     "deal_perc_equity": 0.4,
+     "deal_amt_debt": null,
+     "deal_valuation": 500000,
+     "deal_summary": "$200,000 for 40%",
+     "bite": -500000,
+     "investors": [
+        "Robert Herjavec"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Fitness_Outdoors",
+     "status": "In Business",
+     "website": "tngntskibikes.com"
+  },
+   {
+     "pitch_id": 1252,
+     "name": "Lavabox",
+     "season_id": 14,
+     "episode": 18,
+     "air_date": "3/31/2023",
+     "summary": "LavaBox is a patent pending, award-winning propane campfire inside a new, authentic military ammo can. No smoke. No embers. No wood to collect. Tons of fire. Passes Fire Restrictions.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Josh Thurmond"
+     ],
+     "is_deal": true,
+     "ask_amt": 200000,
+     "ask_perc": 0.1,
+     "ask_valuation": 2000000,
+     "ask_summary": "$200,000 for 10%",
+     "deal_amt_equity": 200000,
+     "deal_perc_equity": 0.125,
+     "deal_amt_debt": null,
+     "deal_valuation": 1600000,
+     "deal_summary": "$200,000 for 12.5%",
+     "bite": -400000,
+     "investors": [
+        "Lori Greiner"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Fitness_Outdoors",
+     "status": "In Business",
+     "website": "fireanytime.com"
+  },
+   {
+     "pitch_id": 1253,
+     "name": "Bleni Blends",
+     "season_id": 14,
+     "episode": 18,
+     "air_date": "3/31/2023",
+     "summary": "Bleni Blends is an automated kiosk that makes real fruit smoothies and coffee frappes.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Stuart Shapiro",
+        "Peter Shapiro"
+     ],
+     "is_deal": true,
+     "ask_amt": 250000,
+     "ask_perc": 0.06,
+     "ask_valuation": 4166667,
+     "ask_summary": "$250,000 for 6%",
+     "deal_amt_equity": 250000,
+     "deal_perc_equity": 0.35,
+     "deal_amt_debt": 500000,
+     "deal_valuation": 714286,
+     "deal_summary": "$250,000 for 35% + $500,000 line of credit",
+     "bite": -3452381,
+     "investors": [
+        "Lori Greiner",
+        "Daniel Lubetzky"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Debt"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "bleniblends.com"
+  },
+   {
+     "pitch_id": 1254,
+     "name": "HappiFloss",
+     "season_id": 14,
+     "episode": 18,
+     "air_date": "3/31/2023",
+     "summary": "The world's first flosser designed for true compostability, Happi Floss is on a mission to replace single-use plastics. Made with layers of post-consumer recycled paper, Happi Floss is designed to decompose quickly in the compost or soil, unlike our plastic counterparts, which can take 400+ years to decompose, if ever.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Staci Whitman"
+     ],
+     "is_deal": false,
+     "ask_amt": 200000,
+     "ask_perc": 0.1,
+     "ask_valuation": 2000000,
+     "ask_summary": "$200,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Lifestyle_Home",
+     "status": "In Business",
+     "website": "happifloss.com"
+  },
+   {
+     "pitch_id": 1255,
+     "name": "The Ice Cream Canteen",
+     "season_id": 14,
+     "episode": 18,
+     "air_date": "3/31/2023",
+     "summary": "The Ice Cream Canteen is the world's first double walled vacuum insulated container for the pint of ice cream, so you can keep your ice cream cold and enjoy ice cream anywhere!",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Jordan Stern"
+     ],
+     "is_deal": true,
+     "ask_amt": 100000,
+     "ask_perc": 0.05,
+     "ask_valuation": 2000000,
+     "ask_summary": "$100,000 for 5%",
+     "deal_amt_equity": 100000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": 100000,
+     "deal_valuation": 500000,
+     "deal_summary": "$100,000 for 20% + $100,000 line of credit",
+     "bite": -1500000,
+     "investors": [
+        "Lori Greiner",
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Debt"
+     ],
+     "category": "Lifestyle_Home",
+     "status": "In Business",
+     "website": "theicecreamcanteen.com"
+  },
+   {
+     "pitch_id": 1256,
+     "name": "Parting Stone",
+     "season_id": 14,
+     "episode": 19,
+     "air_date": "4/7/2023",
+     "summary": "Parting Stone provides a comforting new form of human and pet remains to families choosing cremation. Solidified remains resemble a collection of 60-80 stones that can be touched, held, and shared with friends and family - No more uncomfortable ash.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Justin Crowe"
+     ],
+     "is_deal": true,
+     "ask_amt": 400000,
+     "ask_perc": 0.05,
+     "ask_valuation": 8000000,
+     "ask_summary": "$400,000 for 5%",
+     "deal_amt_equity": 400000,
+     "deal_perc_equity": 0.1,
+     "deal_amt_debt": null,
+     "deal_valuation": 4000000,
+     "deal_summary": "$400,000 for 10% + $20 royalty direct to consumer and $12.50 royalty for business to business",
+     "bite": -4000000,
+     "investors": [
+        "Lori Greiner",
+        "Kevin O'Leary"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Royalty"
+     ],
+     "category": "Other",
+     "status": "In Business",
+     "website": "partingstone.com"
+  },
+   {
+     "pitch_id": 1257,
+     "name": "Cincha Travel",
+     "season_id": 14,
+     "episode": 19,
+     "air_date": "4/7/2023",
+     "summary": "Discover a new level of comfort and style while traveling with Cincha Travel. Our functional Travel Belts and Belt Bags offer clever features, in vibrant colors, to solve your everyday travel challenges. Secure the bag!",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Ashley Sharma",
+        "James Baker"
+     ],
+     "is_deal": true,
+     "ask_amt": 200000,
+     "ask_perc": 0.15,
+     "ask_valuation": 1333333,
+     "ask_summary": "$200,000 for 15%",
+     "deal_amt_equity": 100000,
+     "deal_perc_equity": 0.25,
+     "deal_amt_debt": 100000,
+     "deal_valuation": 400000,
+     "deal_summary": "$100,000 for 25% + $100,000 as a line of credit",
+     "bite": -933333,
+     "investors": [
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Debt"
+     ],
+     "category": "Travel_Auto",
+     "status": "In Business",
+     "website": "cinchatravel.com"
+  },
+   {
+     "pitch_id": 1258,
+     "name": "Burlap and Barrel",
+     "season_id": 14,
+     "episode": 19,
+     "air_date": "4/7/2023",
+     "summary": "Burlap & Barrel is a single origin spices company and social enterprise working directly with expert spice farmers in more than 20 countries to source unique, beautiful spices for home cooks and professional chefs.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Ori Zohar",
+        "Ethan Frisch"
+     ],
+     "is_deal": false,
+     "ask_amt": 500000,
+     "ask_perc": 0.05,
+     "ask_valuation": 10000000,
+     "ask_summary": "$500,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "burlapandbarrel.com"
+  },
+   {
+     "pitch_id": 1259,
+     "name": "Milkify",
+     "season_id": 14,
+     "episode": 19,
+     "air_date": "4/7/2023",
+     "summary": "Milkify is the concierge breast milk freeze-drying service that transforms frozen breast milk into convenient pouches of powder that last for 3 years on the shelf.",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Dr Berkeley Luck",
+        "Pedro Silva"
+     ],
+     "is_deal": true,
+     "ask_amt": 400000,
+     "ask_perc": 0.2,
+     "ask_valuation": 2000000,
+     "ask_summary": "$400,000 for 20%",
+     "deal_amt_equity": 400000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 2000000,
+     "deal_summary": "$400,000 for 20% on a three-year convertible note",
+     "bite": 0,
+     "investors": [
+        "Lori Greiner",
+        "Gwyneth Paltrow"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Other",
+     "status": "In Business",
+     "website": "milkify.me"
+  },
+   {
+     "pitch_id": 1260,
+     "name": "Honey Bunchies",
+     "season_id": 14,
+     "episode": 20,
+     "air_date": "4/14/2023",
+     "summary": "As a woman-owned, veteran-owned, family business, Honey Bunchies makes the ultimate salty-sweet Gourmet Honey Bars that are sure to knock your socks off!",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Kendra Bennet"
+     ],
+     "is_deal": false,
+     "ask_amt": 200000,
+     "ask_perc": 0.1,
+     "ask_valuation": 2000000,
+     "ask_summary": "$200,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "honeybunchies.com"
+  },
+   {
+     "pitch_id": 1261,
+     "name": "Dapper Boi",
+     "season_id": 14,
+     "episode": 20,
+     "air_date": "4/14/2023",
+     "summary": "Dapper Boi is a genderless, everyday, online clothing line made to fit a variety of body types and sizes.  They are proud to make people feel comfortable and confident in their own skin by offering quality, stylish clothes with a unique fit.",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Charisse Pasche",
+        "Vicky Pasche"
+     ],
+     "is_deal": false,
+     "ask_amt": 250000,
+     "ask_perc": 0.05,
+     "ask_valuation": 5000000,
+     "ask_summary": "$250,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "dapperboi.com"
+  },
+   {
+     "pitch_id": 1262,
+     "name": "Play Maysie",
+     "season_id": 14,
+     "episode": 20,
+     "air_date": "4/14/2023",
+     "summary": "Screen-free play, sustainably made: Play Maysie's portable dollhouses create quality play on the go and less mess at home! Founded by a single adoptive mom, each purchase supports their donation of cases to youth entering foster care.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Kayla Lupean"
+     ],
+     "is_deal": true,
+     "ask_amt": 150000,
+     "ask_perc": 0.1,
+     "ask_valuation": 1500000,
+     "ask_summary": "$150,000 for 10%",
+     "deal_amt_equity": 150000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 750000,
+     "deal_summary": "$150,000 for 20% with a $7 royalty",
+     "bite": -750000,
+     "investors": [
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Royalty"
+     ],
+     "category": "Children",
+     "status": "In Business",
+     "website": "playmaysie.com"
+  },
+   {
+     "pitch_id": 1263,
+     "name": "Tia Lupita Foods",
+     "season_id": 14,
+     "episode": 20,
+     "air_date": "4/14/2023",
+     "summary": "Tia Lupita® Foods is a better for you Mexican inspired food brand that uses clean simple ingredients in all of our products and we are the first brand to introduce cactus or nopales as an alternative functional sustainable ingredient in our line of grain-free tortilla chips and tortillas.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Hector Saldivar"
+     ],
+     "is_deal": true,
+     "ask_amt": 500000,
+     "ask_perc": 0.05,
+     "ask_valuation": 10000000,
+     "ask_summary": "$500,000 for 5%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": 0.05,
+     "deal_amt_debt": 500000,
+     "deal_valuation": 0,
+     "deal_summary": "$500,000 for 5% as a line of credit",
+     "bite": -10000000,
+     "investors": [
+        "Kevin O'Leary"
+     ],
+     "deal_structure": [
+        "Debt"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "tialupitafoods.com"
+  },
+   {
+     "pitch_id": 1264,
+     "name": "Nature's Wild Berry",
+     "season_id": 14,
+     "episode": 21,
+     "air_date": "5/5/2023",
+     "summary": "Nature's Wild Berry is the secret to transforming sour, tart, and acidic flavors into sweet sensations! Experience freeze-dried miracle berries with unparalleled freshness and potency. Elevate your culinary adventures and make healthy foods irresistible!",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Hank Watt",
+        "Juliano Boanni"
+     ],
+     "is_deal": true,
+     "ask_amt": 80000,
+     "ask_perc": 0.05,
+     "ask_valuation": 1600000,
+     "ask_summary": "$80,000 for 5%",
+     "deal_amt_equity": 80000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 400000,
+     "deal_summary": "$80,000 for 15% + $3 per unit royalty",
+     "bite": -1200000,
+     "investors": [
+        "Mark Cuban",
+        "Lori Greiner"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Royalty"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "natureswildberry.com"
+  },
+   {
+     "pitch_id": 1265,
+     "name": "See The Way I See",
+     "season_id": 14,
+     "episode": 21,
+     "air_date": "5/5/2023",
+     "summary": "SEE THE WAY I SEE is a brand raising awareness for mental health, and providing a supportive community where everyone feels seen and heard. While also reassuring others that they're not alone through their signature, reassuring reminders on the sleeves of sweatshirts.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Sophie Nistico"
+     ],
+     "is_deal": false,
+     "ask_amt": 250000,
+     "ask_perc": 0.1,
+     "ask_valuation": 2500000,
+     "ask_summary": "$250,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "seethewayisee.com"
+  },
+   {
+     "pitch_id": 1266,
+     "name": "Noshi",
+     "season_id": 14,
+     "episode": 21,
+     "air_date": "5/5/2023",
+     "summary": "Noshi makes kids' food products that are designed to be used by the kids themselves. Our launch product was organic Food Paint™ - tubes of different-colored organic fruit puree that kids can use to paint pictures on their food and then eat (goes great on pancakes and waffles!).",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Tomo Delaney"
+     ],
+     "is_deal": true,
+     "ask_amt": 250000,
+     "ask_perc": 0.17,
+     "ask_valuation": 1470588,
+     "ask_summary": "$250,000 for 17%",
+     "deal_amt_equity": 250000,
+     "deal_perc_equity": 0.25,
+     "deal_amt_debt": null,
+     "deal_valuation": 1000000,
+     "deal_summary": "$250,000 for 25%",
+     "bite": -470588,
+     "investors": [
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Food_Beverage",
+     "status": "In Business",
+     "website": "noshiforkids.com"
+  },
+   {
+     "pitch_id": 1267,
+     "name": "You Go Natural",
+     "season_id": 14,
+     "episode": 21,
+     "air_date": "5/5/2023",
+     "summary": "You Go Natural makes stylish turbans and hair accessories that protect hair and make haircare more accessible.",
+     "entrepreneur_gender": "Hybrid",
+     "entrepreneur": [
+        "Monique Little",
+        "David Dundas"
+     ],
+     "is_deal": true,
+     "ask_amt": 400000,
+     "ask_perc": 0.05,
+     "ask_valuation": 8000000,
+     "ask_summary": "$400,000 for 5%",
+     "deal_amt_equity": 400000,
+     "deal_perc_equity": 0.1,
+     "deal_amt_debt": null,
+     "deal_valuation": 4000000,
+     "deal_summary": "$400,000 for 10% + $3 per unit sold",
+     "bite": -4000000,
+     "investors": [
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity",
+        "Royalty"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "yougonatural.com"
+  },
+   {
+     "pitch_id": 1268,
+     "name": "Influncers in the Wild - The Game",
+     "season_id": 14,
+     "episode": 22,
+     "air_date": "5/19/2023",
+     "summary": "Influencers in the Wild is a modern twist on the classic board game, styled after the viral instagram account of the same name. The game is irreverent and pokes fun at the attention obsessed society we've all morphed into. With challenges, questions, rewards, and penalties (all based on experiences an influencer might have) there is more than enough fun and engagement to go around.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Tank Sinatra"
+     ],
+     "is_deal": false,
+     "ask_amt": 500000,
+     "ask_perc": 0.1,
+     "ask_valuation": 5000000,
+     "ask_summary": "$500,000 for 10%",
+     "deal_amt_equity": null,
+     "deal_perc_equity": null,
+     "deal_amt_debt": null,
+     "deal_valuation": null,
+     "deal_summary": null,
+     "bite": null,
+     "investors": null,
+     "deal_structure": null,
+     "category": "Media_Entertainment",
+     "status": "In Business",
+     "website": "influencersinthewild.com"
+  },
+   {
+     "pitch_id": 1269,
+     "name": "Tones of Melanin",
+     "season_id": 14,
+     "episode": 22,
+     "air_date": "5/19/2023",
+     "summary": "Tones of Melanin's mission is to design apparel that represents Historically Black Colleges and Universities. Through Tones of Melanin we hope to inspire the next generation to attend HBCUs.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Ashley Jones"
+     ],
+     "is_deal": true,
+     "ask_amt": 300000,
+     "ask_perc": 0.15,
+     "ask_valuation": 2000000,
+     "ask_summary": "$300,000 for 15%",
+     "deal_amt_equity": 300000,
+     "deal_perc_equity": 0.12,
+     "deal_amt_debt": null,
+     "deal_valuation": 2500000,
+     "deal_summary": "$300,000 for 12%",
+     "bite": 500000,
+     "investors": [
+        "Mark Cuban"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "tonesofmelanin.com"
+  },
+   {
+     "pitch_id": 1270,
+     "name": "Tucky",
+     "season_id": 14,
+     "episode": 22,
+     "air_date": "5/19/2023",
+     "summary": "Tucky is the ultimate solution for getting the tucked in look without the bulk or turning any top into a crop! Made with thick, luxurious jacquard elastic and lined with silicone strips for extra grip, the patent pending Tucky transforms now only how your clothes look on you, but how you look at your closet.",
+     "entrepreneur_gender": "Female",
+     "entrepreneur": [
+        "Brooke Knaus"
+     ],
+     "is_deal": true,
+     "ask_amt": 70000,
+     "ask_perc": 0.3,
+     "ask_valuation": 233333,
+     "ask_summary": "$70,000 for 30%",
+     "deal_amt_equity": 70000,
+     "deal_perc_equity": 0.39,
+     "deal_amt_debt": null,
+     "deal_valuation": 179487,
+     "deal_summary": "$70,000 for 39%",
+     "bite": -53846,
+     "investors": [
+        "Daymond John"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "shoptucky.com"
+  },
+   {
+     "pitch_id": 1271,
+     "name": "EyeWris",
+     "season_id": 14,
+     "episode": 22,
+     "air_date": "5/19/2023",
+     "summary": "EyeWris reading glasses wrap securely around the wrist so that they are always within reach. It takes one hand, one motion, and one second to change your glasses from wrist-wear to eyewear.",
+     "entrepreneur_gender": "Male",
+     "entrepreneur": [
+        "Kenzo Singer",
+        "Mark Singer"
+     ],
+     "is_deal": true,
+     "ask_amt": 25000,
+     "ask_perc": 0.05,
+     "ask_valuation": 500000,
+     "ask_summary": "$25,000 for 5%",
+     "deal_amt_equity": 125000,
+     "deal_perc_equity": 0.2,
+     "deal_amt_debt": null,
+     "deal_valuation": 625000,
+     "deal_summary": "$125,000 for 20%",
+     "bite": 125000,
+     "investors": [
+        "Mark Cuban",
+        "Daymond John",
+        "Kevin O'Leary",
+        "Lori Greiner",
+        "Barbara Corcoran"
+     ],
+     "deal_structure": [
+        "Equity"
+     ],
+     "category": "Clothing_Fashion",
+     "status": "In Business",
+     "website": "eyewris.com"
   }
 ]

@@ -12060,43 +12060,5 @@
         "isDeal": true
       }
     ]
-  },
-  {
-    "episode": 1,
-    "episode_id": 318,
-    "title": "\"Episode 1\"",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Shark_Tank_(season_14)",
-    "episode_all": 318,
-    "sharks": [
-      "Mark Cuban",
-      "Candace Nelson",
-      "Kevin O'Leary",
-      "Lori Greiner",
-      "Daymond John"
-    ],
-    "season_id": 15,
-    "date": "2023-09-29",
-    "companies": [
-      {
-        "id": 1272,
-        "name": "Gatsby Chocolate",
-        "isDeal": true
-      },
-      {
-        "id": 1273,
-        "name": "Pie Wine",
-        "isDeal": false
-      },
-      {
-        "id": 1274,
-        "name": "Worthy Brands",
-        "isDeal": true
-      },
-      {
-        "id": 1275,
-        "name": "Gently Soaps",
-        "isDeal": true
-      }
-    ]
   }
 ]

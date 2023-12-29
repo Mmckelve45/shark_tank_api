@@ -70,7 +70,7 @@ async def get_shark_by_id(db: db_dependency, shark_id: int = Path(gt=0)):
         raise HTTPException(status_code=500, detail=f"Something went wrong.  Please try again!")
 
 
-@router.post('/load_data', include_in_schema=False, status_code=status.HTTP_201_CREATED)
+@router.post('/load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
 async def bulk_load_sharks(
                       db: db_dependency):
 
