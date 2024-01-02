@@ -11,6 +11,8 @@ This project is a FastAPI implementation of the Shark Tank API. It provides endp
 
 ## Setup
 
+Here is a [video demo](https://youtu.be/pX8suqmkSPE) of the project and high level touch points of the setup.
+
 ### PostgreSQL and PgAdmin4 Setup
 
 1. **Install PostgreSQL:**
