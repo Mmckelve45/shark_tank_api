@@ -11,6 +11,24 @@ This project is a FastAPI implementation of the Shark Tank API. It provides endp
 
 ## Setup
 
+### FastAPI Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/shark-tank-fastapi.git
+   cd shark-tank-fastapi
+
+2. **Create a Virtual Environment:**
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. **Install Dependencies:**
+pip install -r requirements.txt
+
+4. **Run FastAPI Development Server**
+uvicorn main:app --reload
+Visit http://127.0.0.1:8000/docs to explore the API documentation.
+
 ### PostgreSQL and PgAdmin4 Setup
 
 1. **Install PostgreSQL:**
@@ -30,21 +48,5 @@ Update the database connection settings in the FastAPI app (app/database.py) wit
    SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
    engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
-### FastAPI Setup
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/shark-tank-fastapi.git
-   cd shark-tank-fastapi
-
-2. **Create a Virtual Environment:**
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-3. **Install Dependencies:**
-pip install -r requirements.txt
-
-4. **Run FastAPI Development Server**
-uvicorn main:app --reload
-Visit http://127.0.0.1:8000/docs to explore the API documentation.
 
