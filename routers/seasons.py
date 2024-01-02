@@ -71,7 +71,7 @@ async def get_season_by_id(db: db_dependency, season_id: int = Path(gt=0)):
 async def bulk_load_seasons(
                       db: db_dependency):
     season_data = 'assets/season_data.json'
-    with open(season_data, 'r') as file:
+    with open(season_data, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     for seas in data:

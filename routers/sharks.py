@@ -75,7 +75,7 @@ async def bulk_load_sharks(
                       db: db_dependency):
 
     shark_data = 'assets/shark_data.json'
-    with open(shark_data, 'r') as file:
+    with open(shark_data, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     for shark in data:

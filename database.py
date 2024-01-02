@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from config import NEON_DATABASE_URL
+# from config import NEON_DATABASE_URL
 
 
 # ----- SQLite ------ (Read and write from local file - please note, you will have to change some things)

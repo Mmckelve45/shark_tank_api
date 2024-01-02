@@ -111,7 +111,7 @@ async def create_episode(
 async def bulk_load_episodes(
                       db: db_dependency):
     episode_data = 'assets/episode_data.json'
-    with open(episode_data, 'r') as file:
+    with open(episode_data, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     for ep in data:

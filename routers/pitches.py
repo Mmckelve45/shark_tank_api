@@ -159,7 +159,7 @@ async def create_pitch(
 async def bulk_load_pitches(
                       db: db_dependency):
     pitch_data = 'assets/pitch_data.json'
-    with open(pitch_data, 'r') as file:
+    with open(pitch_data, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     for pitch in data:
