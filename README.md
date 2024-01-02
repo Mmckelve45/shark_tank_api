@@ -48,5 +48,6 @@ Update the database connection settings in the FastAPI app (app/database.py) wit
    SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
    engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
-
+### Contributing
+Feel free to contribute to this project by opening issues or creating pull requests. For major changes, please open an issue first to discuss the changes.
 
