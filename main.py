@@ -1,6 +1,7 @@
+import os
 from typing import Annotated
 
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, Header
 from starlette import status
 
 import models
@@ -47,11 +48,33 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 
+def verify_admin_api_key(x_admin_api_key: str = Header(...)):
+    """
+    Verify the admin API key for protected operations.
+    Set ADMIN_API_KEY environment variable to secure this endpoint.
+    """
+    expected_api_key = os.getenv("ADMIN_API_KEY")
+    if not expected_api_key:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Admin operations are not configured. Set ADMIN_API_KEY environment variable."
+        )
+    
+    if x_admin_api_key != expected_api_key:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid admin API key"
+        )
+
+
 # Bulk load all the data into the database.  Sharks, Seasons, Episodes, and Pitches
-# You should call when you run the application for the first time once you have configured your databaseURL
-# This populates your PostgresDB with all the data in the assets folder.
+# This endpoint is protected with admin API key authentication.
+# Set ADMIN_API_KEY environment variable and include 'X-Admin-API-Key' header in requests.
 @app.post('/bulk_load_data', include_in_schema=True, status_code=status.HTTP_201_CREATED)
-async def bulk_load_data(db: db_dependency):
+async def bulk_load_data(
+    db: db_dependency,
+    admin_key: str = Depends(verify_admin_api_key)
+):
     try:
 
         await seasons.bulk_load_seasons(db)

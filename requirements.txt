@@ -1,0 +1,19 @@
+# FastAPI and web framework dependencies
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+starlette==0.37.2
+
+# Database dependencies
+sqlalchemy==2.0.31
+psycopg2-binary==2.9.9
+
+# Data validation and serialization
+pydantic==2.7.0
+
+# Additional dependencies
+python-multipart==0.0.9  # For form data support
+typing-extensions==4.11.0  # For enhanced typing support
+
+# Optional: Environment variable loading
+# Uncomment if you want to use .env files automatically
+# python-dotenv==1.0.1

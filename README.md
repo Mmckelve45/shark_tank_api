@@ -35,12 +35,15 @@ Here is a [video demo](https://youtu.be/pX8suqmkSPE) of the project and high lev
      - For Mac I set the ICU Locale to en-US
 
 5. **Configure Database Connection:**
-   - Update the database connection settings in the FastAPI app (app/database.py) with your PostgreSQL database credentials.  I have provided a place for you to alter your SQLALCHEMY_DATABASE_URL with your own connection.
+   - Copy `.env.example` to `.env` and update the database connection settings:
       ```bash
-      # ----- Postgres ------ (Best Option for easy setup - Recommended)
-      # Load the data with postgres localDB - create a Server/DB in postgres and give it a password
-      SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:Testme321!@localhost/SharkTankDB'
-      engine = create_engine(SQLALCHEMY_DATABASE_URL)
+      cp .env.example .env
+      ```
+   - Edit `.env` file with your PostgreSQL credentials:
+      ```env
+      DATABASE_URL=postgresql://postgres:your_password@localhost/SharkTankDB
+      ADMIN_API_KEY=your-secure-admin-key-here
+      ```
 
 ### FastAPI Setup
 
@@ -55,14 +58,7 @@ Here is a [video demo](https://youtu.be/pX8suqmkSPE) of the project and high lev
 
 3. **Install Dependencies:**
    ```bash
-   pip install uvicorn['standard']
-   pip install fastapi
-   pip install sqlalchemy
-   pip install sqlalchemy-orm
-   pip install psycopg2
-   pip install pydantic
-   pip install starlette
-   pip install typing
+   pip install -r requirements.txt
 
 4. **Run FastAPI Development Server**
    - Recommended - wait to do this step until you complete Postgres and PgAdmin4Setup
@@ -71,7 +67,13 @@ Here is a [video demo](https://youtu.be/pX8suqmkSPE) of the project and high lev
 
 ### Load Data
 1. I created a Loader functions for each of the tables (sharks, seasons, episodes, and pitches).
-   - At the bottom of the http://127.0.0.1:8000/docs page there is a Bulk Load function that will load all the data from the asset files in one click.
+   - The `/bulk_load_data` endpoint is now protected with admin authentication
+   - Include the `X-Admin-API-Key` header with your admin key when calling this endpoint
+   - Example using curl:
+     ```bash
+     curl -X POST "http://127.0.0.1:8000/bulk_load_data" \
+          -H "X-Admin-API-Key: your-secure-admin-key-here"
+     ```
 2. Happy Coding
 
 
